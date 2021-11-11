@@ -215,7 +215,7 @@ img {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 1rem 3rem;
+  padding: 1rem;
 }
 .nav img {
   width: 20px;
