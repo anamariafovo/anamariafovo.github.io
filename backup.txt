@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="height=device-height, width=device-width, initial-scale=1.0, user-scalable=no, target-densitydpi=device-dpi"
+    />
+    <title>My Website</title>
+
+    <!--========================================== CSS ==========================================-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--========================================== ICONSCOUT ==========================================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+  <body>
+    <!--========================================== NAVBAR ==========================================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <img src="assets/img/logos/130x43.png" alt="" />
+        <!-- nav menu -->
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="uil uil-estate nav__icon"></i>
+                Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-alt nav__icon"></i>
+                Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portofolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i>
+                Portofolio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i>
+                Contact Me
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__btns">
+          <!-- theme change -->
+          <i class="uil uil-moon btn__theme" id="theme-button"></i>
+          <!-- nav btn -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--========================================== HOME ==========================================-->
+    <section class="home section" id="home">
+      <div class="home__container container">
+        <!-- start home content -->
+        <div class="home__content">
+          <div class="home__data">
+            <h1 class="home__title">Hey, I'm Ana!</h1>
+            <h2 class="home__subtitle">Frontend developer</h2>
+            <p class="home__description">
+              Wish to own a website? I'm here for you. Having high-level
+              experience in web design and development knowledge, always
+              enthusiastic to hear your ideas and start creating something new.
+            </p>
+            <a href="#contact" class="button btn--rounded home__btn">
+              Get in touch
+              <i class="uil uil-message"></i>
+            </a>
+          </div>
+          <div class="home__image">
+            <img
+              src="assets/img/arts/intro-section-illustration-2.png"
+              alt="home image"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- wave -->
+      <svg
+        class="wave-end"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill-opacity="1"
+          d="M0,192L34.3,202.7C68.6,213,137,235,206,218.7C274.3,203,343,149,411,154.7C480,160,549,224,617,213.3C685.7,203,754,117,823,90.7C891.4,64,960,96,1029,117.3C1097.1,139,1166,149,1234,144C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!--========================================== SKILLS ==========================================-->
+    <section class="skills section" id="skills">
+      <h1 class="section__title">My Skills</h1>
+      <div class="skills__container container grid">
+        <!-- Frontend -->
+        <div class="skills__content skills__open">
+          <div class="skills__header">
+            <i class="uil uil-brackets-curly skills__icon"></i>
+            <div>
+              <h1 class="skills__title">Frontend Developer</h1>
+              <h2 class="skills__subtitle">Lorem ipsum dolor sit amet.</h2>
+            </div>
+            <i class="uil uil-angle-down skills__arrow"></i>
+          </div>
+          <div class="skills__list grid">
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">HTML</h3>
+                <span class="skills__number">90%</span>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__html"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">CSS</h3>
+                <span class="skills__number">90%</span>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__css"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">JavaScript</h3>
+                <span class="skills__number">60%</span>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__js"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">React</h3>
+                <span class="skills__number">0%</span>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__react"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Backend -->
+        <div class="skills__content skills__close">
+          <div class="skills__header">
+            <i class="uil uil-server-network skills__icon"></i>
+            <div>
+              <h1 class="skills__title">Backend Developer</h1>
+              <h2 class="skills__subtitle">Lorem ipsum dolor sit amet.</h2>
+            </div>
+            <i class="uil uil-angle-down skills__arrow"></i>
+          </div>
+          <div class="skills__list grid">
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">PHP</h3>
+                <span class="skills__number">0%</span>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__php"></span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__titles">
+                <h3 class="skills__name">Node JS</h3>
+                <span class="skills__number">0%</span>
+              </div>
+              <div class="skills__bar">
+                <span class="skills__percentage skills__node"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--========================================== PORTOFOLIO ==========================================-->
+    <section class="portofolio section" id="portofolio">
+      <!-- data -->
+      <div class="portofolio__data">
+        <h1 class="section__title">Portofolio</h1>
+        <p class="section__subtitle">My most recent work</p>
+      </div>
+      <div class="portofolio__container container">
+        <!-- Item 1 -->
+        <div class="portofolio__item">
+          <div class="project__box">
+            <img
+              src="assets/img/projects/portofolio-1.jpg"
+              alt=""
+              class="project__img"
+            />
+            <div class="project__info">
+              <div class="caption absolute-center">
+                <h2>Name goes here</h2>
+                <p>Description goes here.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="portofolio__item">
+          <div class="project__box">
+            <img
+              src="assets/img/projects/portofolio-2.jpg"
+              alt=""
+              class="project__img"
+            />
+            <div class="project__info">
+              <div class="caption absolute-center">
+                <h2>Name goes here</h2>
+                <p>Description goes here.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="portofolio__item">
+          <div class="project__box">
+            <img
+              src="assets/img/projects/portofolio-3.jpg"
+              alt=""
+              class="project__img"
+            />
+            <div class="project__info">
+              <div class="caption absolute-center">
+                <h2>Name goes here</h2>
+                <p>Description goes here.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Item 4 -->
+        <div class="portofolio__item">
+          <div class="project__box">
+            <img
+              src="assets/img/projects/portofolio-4.jpg"
+              alt=""
+              class="project__img"
+            />
+            <div class="project__info">
+              <div class="caption absolute-center">
+                <h2>Name goes here</h2>
+                <p>Description goes here.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--========================================== CONTACT ==========================================-->
+    <section class="contact section" id="contact">
+      <!-- wave -->
+      <svg
+        class="wave-start"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill-opacity="1"
+          d="M0,160L34.3,160C68.6,160,137,160,206,170.7C274.3,181,343,203,411,229.3C480,256,549,288,617,256C685.7,224,754,128,823,90.7C891.4,53,960,75,1029,112C1097.1,149,1166,203,1234,202.7C1302.9,203,1371,149,1406,122.7L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
+        ></path>
+      </svg>
+      <h1 class="section__title">Get Started</h1>
+      <div class="contact__container container grid">
+        <!-- contact data -->
+        <div class="contact__details">
+          <div class="contact__data">
+            <i class="uil uil-phone-alt contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Call Me</h3>
+              <span class="contact__subtitle">66499513515</span>
+            </div>
+          </div>
+          <div class="contact__data">
+            <i class="uil uil-envelope contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Email</h3>
+              <span class="contact__subtitle">anamaria_fotache@yahoo.com</span>
+            </div>
+          </div>
+          <div class="contact__data">
+            <i class="uil uil-map-marker contact__icon"></i>
+            <div>
+              <h3 class="contact__title">Location</h3>
+              <span class="contact__subtitle">Austria - Vienna </span>
+            </div>
+          </div>
+        </div>
+        <!-- formular -->
+        <div class="contact__info">
+          <h2 class="form__subtitle">Start Your Project</h2>
+          <form action="#" class="contact__form">
+            <div class="first__name">
+              <input type="text" placeholder="First Name" id="first-name" />
+            </div>
+            <div class="last__name">
+              <input type="text" placeholder="Last Name" id="last-name" />
+            </div>
+            <div class="email">
+              <input type="email" placeholder="Email Address" id="email" />
+            </div>
+            <div class="message">
+              <textarea
+                name="message"
+                placeholder="Write any message..."
+                id="message"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn--rounded contact__btn">
+              Send message
+              <i class="uil uil-telegram-alt"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+      <span class="square-1"></span>
+      <span class="square-2"></span>
+      <span class="square-3"></span>
+      <span class="square-4"></span>
+      <span class="square-5"></span>
+      <!-- wave -->
+      <svg
+        class="wave-end"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill-opacity="1"
+          d="M0,160L34.3,160C68.6,160,137,160,206,170.7C274.3,181,343,203,411,229.3C480,256,549,288,617,256C685.7,224,754,128,823,90.7C891.4,53,960,75,1029,112C1097.1,149,1166,203,1234,202.7C1302.9,203,1371,149,1406,122.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+
+    <!--========================================== FOOTER ==========================================-->
+    <section class="footer section" id="footer">
+      <!-- social media -->
+      <div class="footer__container container">
+        <!-- <span class="footer__social">connect with me on social media</span> -->
+        <a href="https://www.github.com/" target="_blank" class="footer__icon">
+          <i class="uil uil-github"></i>
+        </a>
+        <a
+          href="https://www.facebook.com/"
+          justify-content:
+          end;
+          target="_blank"
+          class="footer__icon"
+        >
+          <i class="uil uil-facebook"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          class="footer__icon"
+        >
+          <i class="uil uil-instagram-alt"></i>
+        </a>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">
+          &COPY; Copyright 2021
+          <a href="#">ATRIX</a>
+          All rights reserved
+        </p>
+      </div>
+    </section>
+
+    <!--========================================== JS ==========================================-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
+
