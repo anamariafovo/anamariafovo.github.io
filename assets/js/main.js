@@ -52,3 +52,7 @@ function linkAction() {
   navMenu.classList.remove('show-menu');
 }
 navLink.forEach((n) => n.addEventListener('click', linkAction));
+
+/*========================================== SET DATE DYNAMICALLY ==========================================*/
+const date = document.getElementById('date');
+date.innerHTML = new Date().getFullYear();

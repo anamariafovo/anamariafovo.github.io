@@ -71,8 +71,8 @@ body.dark-theme {
   --text-color: var(--white);
   --box-color: rgb(215, 172, 240);
   --hover-color: var(--primary-color);
-  --icons-color: var(--grey1);
-  --skills: var(--grey1);
+  --icons-color: var(--gray1);
+  --skills: var(--gray1);
 
   /* --gradient: linear-gradient(90deg, rgb(10, 39, 75) 0%, rgb(44, 6, 66) 92%); */
   /* --gradient: linear-gradient(to right, rgb(28, 59, 9) 0%, rgb(84, 20, 121) 92%); */
