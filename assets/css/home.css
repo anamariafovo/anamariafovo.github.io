@@ -1,0 +1,47 @@
+/*========================================== HOME ==========================================*/
+.home {
+  background: var(--gradient);
+  color: var(--gray-100);
+}
+.home__subtitle {
+  padding-top: 0.5rem;
+}
+.home__description {
+  padding-top: 1rem;
+  padding-bottom: 3.5rem;
+}
+.home__image {
+  width: 50%;
+  margin-left: 10rem;
+}
+
+@media (min-width: 992px) {
+  .home__content {
+    display: flex;
+    align-items: center;
+  }
+  .home__data {
+    width: 50%;
+  }
+  .home__title {
+    font-size: var(--h1-font-size-bd);
+  }
+  .home__subtitle {
+    font-size: var(--h2-font-size-bd);
+  }
+  .home__description {
+    font-size: var(--normal-font-size-bd);
+  }
+  .home__image {
+    width: 50%;
+    margin-left: 7rem;
+  }
+  .home__btn {
+    font-size: var(--h2-font-size);
+    padding: 1.2rem;
+  }
+  .home__btn i {
+    font-size: var(--normal-font-size-bd);
+    margin-left: 1rem;
+  }
+}

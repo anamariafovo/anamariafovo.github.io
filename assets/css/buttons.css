@@ -1,0 +1,40 @@
+/*========================================== BUTTONS ==========================================*/
+.nav__btns {
+  display: flex;
+  column-gap: 1.5rem;
+}
+.btn__theme,
+.nav__toggle {
+  color: var(--gray-200);
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.btn__theme:hover,
+.nav__toggle:hover {
+  color: var(--hover-color);
+}
+.btn--rounded {
+  /* position: relative; */
+  font-weight: var(--font-medium);
+  /* margin: 0; */
+  padding: 1rem;
+  border-radius: 50rem;
+  cursor: pointer;
+}
+.home__btn {
+  border: 0.1rem solid rgba(255, 255, 255, 0.6);
+  color: var(--gray-100);
+  transition: all 0.4s linear;
+}
+.home__btn:hover {
+  border: 0.1rem solid var(--gray-100);
+  /* background-color: rgba(84, 20, 121, 0.5); */
+  background-color: var(--turquoise);
+}
+.home__btn i {
+  font-size: var(--normal-font-size);
+  padding-left: 0.5rem;
+}
+.cv__btn {
+  color: var(--skills);
+}
