@@ -7,6 +7,7 @@
   background: var(--gradient);
   box-shadow: var(--nav-shadow);
   border-radius: 0 0 0.75rem 0.75rem;
+  z-index: 1;
 }
 .nav {
   display: flex;
