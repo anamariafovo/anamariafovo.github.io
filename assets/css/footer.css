@@ -18,7 +18,7 @@
   color: var(--gray-300);
 }
 .footer-bottom a:hover {
-  color: var(--vista-color);
+  color: var(--vista-blue);
 }
 
 @media (min-width: 992px) {

@@ -15,6 +15,7 @@
   --lavender: #a480cf;
   --lavender-light: #d1bfe7;
   --vista-blue: #779be7;
+  --vista-blue-light: #92afeb;
   --argentinian-blue: #49b6ff;
   --argentinian-blue-light: #49b6ffa6;
 
@@ -23,9 +24,9 @@
     90deg,
     var(--vista-blue) 0%,
     var(--argentinian-blue-light) 68%,
-    var(--white) 90%
+    var(--gray-100) 90%
   );
-  --body-color: var(--white);
+  --body-color: var(--gray-100);
   --skill-icon-color: var(--argentinian-blue);
   --hover-color: var(--argentinian-blue-light);
   --box-color: var(--white);
@@ -124,14 +125,17 @@ img {
 }
 
 /*** DARK THEME ***/
-/* body.dark-theme {
-  --gradient: #5f7cb8;
-  --body-color: var(--vista-blue);
+body.dark-theme {
+  --gradient: linear-gradient(
+    to right,
+    var(--argentinian-blue) 0%,
+    var(--vista-blue) 40%
+  );
+  --body-color: var(--vista-blue-light);
   --skill-icon-color: var(--text-color);
   --hover-color: var(--vista-blue);
-  --box-color: var(--lavender-light);
-  color: var(--gray-200);
-} */
+  --box-color: var(--vista-blue);
+}
 
 /*** MEDIA QUERIES ***/
 @media (min-width: 280px) {
