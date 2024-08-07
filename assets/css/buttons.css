@@ -1,0 +1,12 @@
+.btn-rounded {
+  padding: 0.2rem 0.5rem;
+  border-radius: 50rem;
+  cursor: pointer;
+  color: var(--gray-800);
+  border: 0.1rem solid var(--gray-700);
+  transition: all 0.4s linear;
+  text-align: center;
+}
+.btn-rounded:hover {
+  background-color: var(--vista-blue);
+}

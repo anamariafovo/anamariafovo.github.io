@@ -1,0 +1,31 @@
+.footer {
+  background: var(--body-color);
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 1rem;
+}
+.footer-bottom {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: var(--text-color);
+  color: var(--gray-500);
+}
+.footer-bottom p {
+  font-size: 0.98rem;
+}
+.footer-bottom a {
+  color: var(--gray-300);
+}
+.footer-bottom a:hover {
+  color: var(--vista-color);
+}
+
+@media (min-width: 992px) {
+  .section-title {
+    font-size: 3rem;
+  }
+  .footer-bottom p {
+    font-size: 1rem;
+  }
+}

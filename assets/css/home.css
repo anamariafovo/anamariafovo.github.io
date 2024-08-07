@@ -1,0 +1,34 @@
+.home {
+  background: var(--gradient);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.home-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+}
+.home-image {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .home {
+    margin-top: 5rem;
+  }
+  .home-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .home-info {
+    width: 50%;
+  }
+  .home-image {
+    display: block;
+    width: 30%;
+  }
+}
