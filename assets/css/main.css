@@ -5,6 +5,7 @@
 @import url("skills.css");
 @import url("portofolio.css");
 @import url("footer.css");
+@import url("projects/project.css");
 
 /*** GENERAL VARIABLES ***/
 :root {
@@ -89,10 +90,13 @@ img {
 
 /*** REUSABLE CLASSES ***/
 .section {
-  padding: 3rem 0 0;
+  padding: 1rem 0 0;
 }
 .align-center {
   text-align: center;
+}
+.align-start {
+  text-align: start;
 }
 .section-title {
   margin-top: 1rem;

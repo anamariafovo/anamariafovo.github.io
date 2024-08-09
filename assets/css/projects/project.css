@@ -1,0 +1,101 @@
+@import url("bee-buy.css");
+@import url("music-zone.css");
+
+.project {
+  margin-top: 2.5rem;
+  color: var(--white);
+}
+.project-section,
+.project-subsection,
+.project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.project-subsection {
+  width: 100%;
+}
+.project-container {
+  width: 80%;
+  align-items: flex-start;
+}
+.project-description {
+  font-weight: 300;
+}
+.project-subtitle {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #997272;
+  margin: 1rem 0;
+}
+.project-paragraph {
+  text-align: justify;
+  padding: 0;
+}
+.process-list {
+  width: 70%;
+}
+.project-paragraph li {
+  line-height: 1.5;
+  font-weight: 300;
+}
+.highlight-section {
+  margin: 2rem 0;
+  background-color: var(--gray-500);
+}
+.prototype-subsection,
+.user-flows {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 5rem;
+  row-gap: 2rem;
+  padding: 2rem;
+}
+.project-container h4 {
+  margin-bottom: 0.75rem;
+}
+.user-flows div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  row-gap: 2rem;
+}
+
+@media (min-width: 992px) {
+  .project {
+    height: 500px;
+  }
+  .header-music,
+  .header-shop {
+    height: 100%;
+  }
+  .project-subsection {
+    width: 80%;
+    flex-direction: row;
+    column-gap: 3rem;
+    align-items: start;
+  }
+  .project-container {
+    align-items: center;
+  }
+  .project-container h4 {
+    font-size: 1.2rem;
+  }
+  .project-paragraph li {
+    line-height: 2;
+    font-size: 1.2rem;
+  }
+  .prototype-subsection,
+  .user-flows {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media (min-width: 576px) {
+  .prototype-subsection,
+  .user-flows {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
