@@ -40,11 +40,6 @@
   line-height: 1.5;
   font-weight: 300;
 }
-.highlight-section {
-  margin: 2rem 0;
-  background-color: var(--gray-500);
-}
-.prototype-subsection,
 .user-flows {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -61,6 +56,9 @@
   justify-content: flex-start;
   align-items: flex-start;
   row-gap: 2rem;
+}
+.prototype-image {
+  cursor: pointer;
 }
 
 @media (min-width: 992px) {
@@ -87,14 +85,12 @@
     line-height: 2;
     font-size: 1.2rem;
   }
-  .prototype-subsection,
   .user-flows {
     grid-template-columns: repeat(6, 1fr);
   }
 }
 
 @media (min-width: 576px) {
-  .prototype-subsection,
   .user-flows {
     grid-template-columns: repeat(3, 1fr);
   }
