@@ -20,6 +20,9 @@
   width: 80%;
   align-items: flex-start;
 }
+.project-container h4 {
+  margin-bottom: 0.75rem;
+}
 .project-description {
   margin-top: 1rem;
   font-weight: 300;
@@ -43,13 +46,10 @@
 }
 .user-flows {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   column-gap: 5rem;
   row-gap: 2rem;
-  padding: 2rem;
-}
-.project-container h4 {
-  margin-bottom: 0.75rem;
+  padding: 1rem;
 }
 .user-flows div {
   display: flex;
@@ -57,6 +57,9 @@
   justify-content: flex-start;
   align-items: flex-start;
   row-gap: 2rem;
+}
+.user-flows p {
+  font-size: 0.75rem;
 }
 .prototype-image {
   cursor: pointer;
@@ -92,13 +95,7 @@
     line-height: 2;
     font-size: 1.2rem;
   }
-  .user-flows {
-    grid-template-columns: repeat(6, 1fr);
-  }
-}
-
-@media (min-width: 576px) {
-  .user-flows {
-    grid-template-columns: repeat(3, 1fr);
+  .user-flows p {
+    font-size: 1rem;
   }
 }

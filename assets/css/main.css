@@ -14,7 +14,7 @@
   --sky-magenta: #d264b6;
   --sky-magenta-opaque: #d264b78c;
   --lavender: #a480cf;
-  --lavender-light: #d1bfe7;
+  --lavender-light: #d1bfe780;
   --vista-blue: #779be7;
   --vista-blue-light: #92afeb;
   --argentinian-blue: #49b6ff;
@@ -23,9 +23,9 @@
   /* Theme */
   --gradient: linear-gradient(
     90deg,
-    var(--vista-blue) 0%,
-    var(--argentinian-blue-light) 68%,
-    var(--gray-100) 90%
+    var(--argentinian-blue-light) 0%,
+    var(--vista-blue) 68%,
+    var(--lavender-light) 90%
   );
   --body-color: var(--gray-100);
   --skill-icon-color: var(--argentinian-blue);
@@ -134,14 +134,15 @@ iframe {
 /*** DARK THEME ***/
 body.dark-theme {
   --gradient: linear-gradient(
-    to right,
-    var(--argentinian-blue) 0%,
-    var(--vista-blue) 40%
+    90deg,
+    var(--argentinian-blue-light) 0%,
+    var(--vista-blue) 68%,
+    var(--lavender-light) 90%
   );
   --body-color: var(--vista-blue-light);
   --skill-icon-color: var(--text-color);
   --hover-color: var(--vista-blue);
-  --box-color: var(--vista-blue);
+  --box-color: var(--lavender-light);
 }
 
 /*** MEDIA QUERIES ***/
