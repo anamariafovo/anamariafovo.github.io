@@ -21,6 +21,7 @@
   align-items: flex-start;
 }
 .project-description {
+  margin-top: 1rem;
   font-weight: 300;
 }
 .project-subtitle {
@@ -59,6 +60,12 @@
 }
 .prototype-image {
   cursor: pointer;
+}
+.prototype-image img {
+  transition: 0.75s;
+}
+.prototype-image:hover img {
+  transform: scale(1.05);
 }
 
 @media (min-width: 992px) {

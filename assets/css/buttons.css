@@ -7,6 +7,3 @@
   transition: all 0.4s linear;
   text-align: center;
 }
-.btn-rounded:hover {
-  background-color: var(--vista-blue);
-}
