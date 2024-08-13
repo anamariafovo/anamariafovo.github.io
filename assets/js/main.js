@@ -53,6 +53,9 @@ function linkAction() {
 navLink.forEach((n) => n.addEventListener('click', linkAction));
 
 /*========================================== SHOW PROJECT LIST ==========================================*/
+const projectsNavLink = document.getElementById('projects-navLink');
+const projectsList = document.getElementById('projects-list-navLink');
+
 function showList() {
   projectsList.classList.add('show-projectsList');
 }
@@ -63,9 +66,6 @@ function hideList() {
 
 /* only for bigger screens */
 if (window.innerWidth > 992) {
-  const projectsNavLink = document.getElementById('projects-navLink');
-  const projectsList = document.getElementById('projects-list-navLink');
-
   projectsNavLink.addEventListener('mouseover', showList);
   projectsList.addEventListener('mouseout', hideList);
 }
