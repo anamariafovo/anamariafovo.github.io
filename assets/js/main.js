@@ -53,9 +53,6 @@ function linkAction() {
 navLink.forEach((n) => n.addEventListener('click', linkAction));
 
 /*========================================== SHOW PROJECT LIST ==========================================*/
-const projectsNavLink = document.getElementById('projects-navLink');
-const projectsList = document.getElementById('projects-list-navLink');
-
 function showList() {
   projectsList.classList.add('show-projectsList');
 }
@@ -64,8 +61,14 @@ function hideList() {
   projectsList.classList.remove('show-projectsList');
 }
 
-projectsNavLink.addEventListener('mouseover', showList);
-projectsList.addEventListener('mouseout', hideList);
+/* only for bigger screens */
+if (window.innerWidth > 992) {
+  const projectsNavLink = document.getElementById('projects-navLink');
+  const projectsList = document.getElementById('projects-list-navLink');
+
+  projectsNavLink.addEventListener('mouseover', showList);
+  projectsList.addEventListener('mouseout', hideList);
+}
 
 /*========================================== SET DATE DYNAMICALLY ==========================================*/
 const date = document.getElementById('date');

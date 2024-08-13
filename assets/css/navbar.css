@@ -70,12 +70,12 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  row-gap: 1rem;
 }
 .list-link {
   width: 100%;
   cursor: pointer;
   padding: 0.5rem;
+  font-size: 0.75rem;
 }
 .list-link a {
   color: var(--text-color);
@@ -115,5 +115,11 @@
   .nav-icon,
   .btn-toggle {
     display: none;
+  }
+  .nav-item-list {
+    row-gap: 1rem;
+  }
+  .list-link {
+    font-size: 1rem;
   }
 }
