@@ -24,14 +24,6 @@
 .show-menu {
   right: 0%;
 }
-.nav-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  row-gap: 1rem;
-  justify-content: space-between;
-}
 .nav-link {
   display: block;
   color: var(--text-color);
@@ -49,6 +41,13 @@
   margin-right: 1rem;
   color: var(--text-color);
 }
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  row-gap: 0.75rem;
+}
 .btn-theme {
   position: relative;
   right: 45%;
@@ -60,6 +59,32 @@
   left: 45%;
   font-size: 1.2rem;
   cursor: pointer;
+}
+.nav-item-list {
+  position: absolute;
+  background: var(--body-color);
+  padding: 2rem;
+  border-radius: 15px;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  row-gap: 1rem;
+}
+.list-link {
+  width: 100%;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.list-link a {
+  color: var(--text-color);
+}
+.list-link:hover {
+  background-color: var(--sky-magenta-opaque);
+}
+.show-projectsList {
+  visibility: visible;
 }
 
 @media (min-width: 992px) {
