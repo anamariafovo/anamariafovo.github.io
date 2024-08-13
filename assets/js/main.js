@@ -65,7 +65,7 @@ function hideList() {
 }
 
 /* only for bigger screens */
-if (window.innerWidth > 992) {
+if (window.innerWidth > 1400) {
   projectsNavLink.addEventListener('mouseover', showList);
   projectsList.addEventListener('mouseout', hideList);
 }
