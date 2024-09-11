@@ -4,14 +4,14 @@
   align-items: center;
   width: 100%;
   padding: 2rem;
-  background: var(--text-color);
-  color: var(--interface-color);
+  background: #231f20;
+  color: #f7f7f7;
 }
 .footer-text {
   font-weight: 300;
 }
 .footer a {
-  color: var(--interface-color);
+  color: #f7f7f7;
 }
 .footer a:hover {
   color: var(--celeste);

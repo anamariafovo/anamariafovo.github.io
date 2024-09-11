@@ -8,7 +8,8 @@
   color: var(--text-color);
 }
 .link-button:hover {
-  background-color: var(--celeste);
+  background-color: var(--hover-color);
+  color: #231f20;
 }
 .theme-button {
   cursor: pointer;
@@ -25,9 +26,9 @@
   border-radius: 16px;
   font-weight: 700;
   background-color: var(--celadon);
-  color: var(--text-color);
+  color: #231f20;
   z-index: 100;
-  border: 2px solid var(--text-color);
+  border: 2px solid #231f20;
   cursor: pointer;
   transition: 1s;
 }
@@ -38,9 +39,9 @@
   right: 1rem;
   border-radius: 16px;
   background-color: var(--celadon);
-  color: var(--text-color);
+  color: #231f20;
   z-index: 100;
-  border: 1px solid var(--text-color);
+  border: 1px solid #231f20;
   cursor: pointer;
   transition: 1s;
   padding: 10px;

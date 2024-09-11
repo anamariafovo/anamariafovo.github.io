@@ -1,7 +1,8 @@
 .home {
   margin-top: 144px;
   padding: 4rem;
-  background: var(--dutch-white);
+  background-color: var(--home-color);
+  color: #231f20;
   border-bottom: 2px solid #000;
 }
 .home-container {
@@ -29,7 +30,7 @@
 .separator-line-horizontal {
   width: 100%;
   height: 1px;
-  background: var(--text-color);
+  background: #231f20;
 }
 
 @media (max-width: 768px) {

@@ -15,11 +15,11 @@
   --orchid-pink: #f2bac9;
   --dutch-white: #f2e2ba;
 
-  /* Theme */
-
-  /* Font and typography */
-  --interface-color: #f7f7f7;
+  /* Theme & Typography */
+  --body-color: #f7f7f7;
   --text-color: #231f20;
+  --home-color: var(--dutch-white);
+  --hover-color: var(--celeste);
   --body-font: "Montserrat", sans-serif;
 }
 
@@ -36,7 +36,7 @@ body {
   font-family: var(--body-font);
   font-size: 1rem;
   color: var(--text-color);
-  background-color: var(--interface-color);
+  background-color: var(--body-color);
 }
 h1 {
   font-size: 2rem;
@@ -91,9 +91,10 @@ iframe {
 
 /*** DARK THEME ***/
 body.dark-theme {
-  --body-color: var(--text-color);
-  --hover-color: var(--columbian-blue);
-  --text-color: var(--interface-color);
+  --body-color: #231f20;
+  --text-color: #f7f7f7;
+  --home-color: var(--columbia-blue);
+  --hover-color: var(--orchid-pink);
 }
 
 /*** MEDIA QUERIES ***/

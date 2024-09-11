@@ -5,7 +5,7 @@
   margin-top: 144px;
   padding: 0;
   width: 100%;
-  color: var(--interface-color);
+  color: #f7f7f7;
 }
 .project-description {
   display: flex;
