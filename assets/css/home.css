@@ -41,6 +41,10 @@
   .home-column-two {
     row-gap: 4rem;
   }
+  .home-column-one p {
+    font-weight: 400;
+    line-height: 200%;
+  }
 }
 
 @media (max-width: 768px) {
