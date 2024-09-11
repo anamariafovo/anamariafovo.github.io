@@ -1,9 +1,9 @@
 .link-button {
-  padding: 16px 40px;
+  padding: 16px 32px;
   justify-content: center;
   align-items: center;
   border-radius: 16px;
-  transition: 1s;
+  transition: 0.75s;
   font-weight: 700;
   color: var(--text-color);
 }
