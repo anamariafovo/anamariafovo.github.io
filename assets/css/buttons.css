@@ -18,13 +18,11 @@
 }
 .cv-button-big {
   position: fixed;
+  display: inline;
   bottom: 1rem;
   right: 1rem;
   padding: 16px 40px;
-  justify-content: center;
-  align-items: center;
   border-radius: 16px;
-  transition: 1s;
   font-weight: 700;
   background-color: var(--celadon);
   color: var(--text-color);
@@ -38,10 +36,7 @@
   position: fixed;
   bottom: 1rem;
   right: 1rem;
-  justify-content: center;
-  align-items: center;
   border-radius: 16px;
-  transition: 1s;
   background-color: var(--celadon);
   color: var(--text-color);
   z-index: 100;
@@ -63,7 +58,7 @@
     font-weight: 500;
   }
   .cv-button-small {
-    display: block;
+    display: inline;
   }
   .link-button {
     padding: 12px 10px;

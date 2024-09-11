@@ -90,11 +90,11 @@ iframe {
 }
 
 /*** DARK THEME ***/
-/* body.dark-theme {
+body.dark-theme {
   --body-color: var(--text-color);
-  --hover-color: var(--vista-blue);
+  --hover-color: var(--columbian-blue);
   --text-color: var(--interface-color);
-} */
+}
 
 /*** MEDIA QUERIES ***/
 @media (max-width: 768px) {
