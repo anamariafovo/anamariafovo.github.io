@@ -40,7 +40,7 @@
   background-color: var(--celadon);
   color: var(--text-color);
   z-index: 100;
-  border: 2px solid var(--text-color);
+  border: 1px solid var(--text-color);
   cursor: pointer;
   transition: 1s;
   padding: 10px;
@@ -61,9 +61,6 @@
     display: inline;
   }
   .link-button {
-    padding: 12px 10px;
-  }
-  .theme-button {
-    transform: scale(0.8);
+    padding: 12px 8px;
   }
 }

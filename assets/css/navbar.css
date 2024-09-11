@@ -40,9 +40,11 @@
     transform: scale(0.7);
   }
   .navbar-elements,
-  .navbar-links,
+  .navbar-links {
+    column-gap: 0.5rem;
+  }
   .theme {
-    column-gap: 0.75rem;
+    column-gap: 0.2rem;
   }
   .navbar-links a {
     font-weight: 500;
