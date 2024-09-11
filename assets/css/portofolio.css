@@ -1,5 +1,5 @@
 .portofolio {
-  padding: 4rem;
+  padding: 5rem 8rem;
   background: var(--body-color);
 }
 .portofolio-container {
@@ -86,6 +86,12 @@
     border-left: 3px dashed var(--text-color);
     background-color: var(--columbia-blue);
     color: #231f20;
+  }
+}
+
+@media (min-width: 1920px) {
+  .portofolio {
+    padding: 5rem 8rem 12rem 8rem;
   }
 }
 
