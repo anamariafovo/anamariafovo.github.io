@@ -6,458 +6,191 @@
       name="viewport"
       content="height=device-height, width=device-width, initial-scale=1.0, target-densitydpi=device-dpi" />
     <title>FOVO</title>
-
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
   </head>
   <body>
-    <header class="header" id="header">
-      <!--========================================== NAVBAR ==========================================-->
-      <nav class="nav">
-        <!-- nav menu -->
-        <div class="nav-menu" id="nav-menu">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="#home" class="nav-link" aria-label="Home Page">
-                <i class="uil uil-estate nav-icon"></i>
-                Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#skills" class="nav-link" aria-label="Skills Section">
-                <i class="uil uil-file-alt nav-icon"></i>
-                Skills
-              </a>
-            </li>
-            <li class="nav-item" id="projects-navLink">
-              <a
-                href="#portofolio"
-                class="nav-link"
-                aria-label="Portofolio Section">
-                <i class="uil uil-scenery nav-icon"></i>
-                Portofolio
-              </a>
-              <ul class="nav-item-list" id="projects-list-navLink">
-                <li><b>Design</b></li>
-                <li class="list-link">
-                  <a
-                    href="/music-zone.html"
-                    target="_self"
-                    aria-label="Link to Figma design and prototype of a musical score tablet app
-                    for classical musicians">
-                    MUSICZONE - score app for musicians
-                  </a>
-                </li>
-                <li class="list-link">
-                  <a
-                    href="/bee-buy.html"
-                    target="_self"
-                    aria-label="Link to Figma design and prototype of a shopping website">
-                    BeeBuy - E-commerce website
-                  </a>
-                </li>
-                <li class="list-link">
-                  <a
-                    href="https://thriving-unicorn-a8d440.netlify.app/"
-                    target="_self"
-                    aria-label="Link to a website built from scratch with plain HTML, CSS and JS that
-                    includes a case study with wireframes and mockups">
-                    Mao - Cat Shelter
-                  </a>
-                </li>
-                <li class="list-link">
-                  <a
-                    href="https://gallant-keller-4f27ef.netlify.app"
-                    target="_self"
-                    aria-label="Link to a minimalist blog design">
-                    Minimalism life - minimalist blog design
-                  </a>
-                </li>
-                <li><b>Small apps</b></li>
-                <li class="list-link">
-                  <a
-                    href="https://reverent-noether-249976.netlify.app"
-                    target="_self"
-                    aria-label="Link to a database created in React that contains different types of
-                    cocktails and their details">
-                    Cocktail DB
-                  </a>
-                </li>
-                <li class="list-link">
-                  <a
-                    href="https://focused-neumann-d54e25.netlify.app"
-                    target="_self"
-                    aria-label="Latest movies database website built with React">
-                    Movie DB
-                  </a>
-                </li>
-                <li class="list-link">
-                  <a
-                    href="https://competent-hodgkin-08cd91.netlify.app"
-                    target="_self"
-                    aria-label="A simple color generator made with React">
-                    Color generator
-                  </a>
-                </li>
-                <li class="list-link">
-                  <a
-                    href="https://happy-hopper-c69edb.netlify.app"
-                    target="_self"
-                    aria-label="Small app that lets you create a grocery list">
-                    Grocery list
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+    <!--========================================== NAVBAR ==========================================-->
+    <nav class="navbar-fixed">
+      <img src="assets/img/logo.svg" alt="logo image" class="logo" />
+      <div class="navbar-elements">
+        <div class="navbar-links">
+          <a href="#" class="link-button" aria-label="Home Navbar Link">Home</a>
+          <a
+            href="#portofolio"
+            class="link-button"
+            aria-label="Portofolio Navbar Link">
+            Portofolio
+          </a>
         </div>
-        <!-- nav btn -->
-        <div class="btn-toggle" id="btn-toggle">
-          <i class="uil uil-bars"></i>
-        </div>
-        <!-- theme change -->
-        <div class="btn-theme" id="theme-button">
-          <i class="uil uil-moon" id="theme-icon"></i>
-        </div>
-      </nav>
-      <!--========================================== HOME ==========================================-->
-      <section class="home section" id="home">
-        <div class="container">
-          <div class="home-content">
-            <div class="home-info">
-              <h1 class="section-title">Hi, I'm Ana!</h1>
-              <h2 class="section-subtitle">Web Developer</h2>
-              <p class="section-description">
-                I am passionate about web design and programming. I value
-                structure, and clarity and add creativity to everything I do.
-                With great attention to detail, I combine aesthetics with
-                practicality in my daily work. My artistic background offered me
-                a well-developed taste for harmony and aesthetics, and my two
-                plus years of experience as a software developer allowed me to
-                put these skills into practice logically and well-structured. I
-                am always enthusiastic about creating new features, having their
-                usability in mind, and making the user’s interaction with a
-                product easier, clearer, and pleasant in every way.
-              </p>
-            </div>
-            <div class="home-image">
-              <img
-                src="assets/img/intro-section-illustration.png"
-                alt="home image" />
-            </div>
+        <div class="theme">
+          <span class="separator-line-vertical"></span>
+          <div class="theme-button">
+            <img
+              src="assets/img/theme-button-light-big.svg"
+              id="light-theme-button"
+              alt="theme button" />
+            <img
+              src="assets/img/theme-button-dark-big.svg"
+              id="dark-theme-button"
+              alt="theme button" />
           </div>
         </div>
-        <!-- wave -->
-        <svg
-          class="wave-end"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1440 300">
-          <path
-            fill-opacity="1"
-            d="M0,192L34.3,202.7C68.6,213,137,235,206,218.7C274.3,203,343,149,411,154.7C480,160,549,224,617,213.3C685.7,203,754,117,823,90.7C891.4,64,960,96,1029,117.3C1097.1,139,1166,149,1234,144C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
-        </svg>
-      </section>
-    </header>
+      </div>
+    </nav>
 
-    <!--========================================== SKILLS ==========================================-->
-    <section class="section" id="skills">
-      <h1 class="section-title align-center">My Skills</h1>
-      <div class="container">
-        <div class="skills-header">
-          <div>
-            <h2 class="section-subtitle">Some of my skills</h2>
-            <p class="section-description">
-              My recipe for a good website design includes a detail-oriented
-              mindset, a habit of writing clean code, structure, and clarity. At
-              the top of my list, creativity always has an important place. In
-              web design and development, I mostly have experience with:
-            </p>
-            <a
-              class="btn-round"
-              download=""
-              href="./assets/pdf/CV-Ana_Maria-Fotach_Vornicu.pdf"
-              aria-label="CV download button">
-              Download CV
-              <i class="uil uil-download-alt"></i>
-            </a>
-          </div>
-          <img src="./assets/img/skills-img.png" alt="" class="skills-img" />
+    <!--========================================== HOME ==========================================-->
+    <section class="section home" id="home">
+      <div class="container home-container">
+        <div class="home-column-one">
+          <h1>Hi, I'm Ana-Maria</h1>
+          <span class="separator-line-horizontal"></span>
+          <p>
+            Welcome to my digital portfolio! As a passionate web designer and
+            developer, I specialize in crafting visually stunning and
+            user-friendly websites that elevate brands and enhance user
+            experiences. With a keen eye for design and a solid foundation in
+            coding, I transform ideas into responsive, dynamic web solutions
+            tailored to meet your unique needs. Whether you're looking to
+            establish an online presence, revamp your existing site, or develop
+            a custom web application, I’m here to bring your vision to life.
+          </p>
         </div>
-        <!-- Skills -->
-        <div class="skills-list grid">
-          <div class="skill-box">
-            <span class="skills-icon">
-              <i class="devicon-html5-plain"></i>
-            </span>
-            <h3 class="skills-name">HTML5</h3>
-            <img src="" alt="" />
-          </div>
-          <div class="skill-box">
-            <span class="skills-icon">
-              <i class="devicon-css3-plain"></i>
-            </span>
-            <h3 class="skills-name">CSS3</h3>
-            <img src="" alt="" />
-          </div>
-          <div class="skill-box">
-            <span class="skills-icon">
-              <i class="devicon-javascript-plain"></i>
-            </span>
-            <h3 class="skills-name">JavaScript</h3>
-            <img src="" alt="" />
-          </div>
-          <div class="skill-box">
-            <span class="skills-icon">
-              <i class="devicon-vuejs-plain"></i>
-            </span>
-            <h3 class="skills-name">VueJS</h3>
-            <img src="" alt="" />
-          </div>
-          <div class="skill-box">
-            <span class="skills-icon">
-              <i class="devicon-typescript-plain"></i>
-            </span>
-            <h3 class="skills-name">TypeScrypt</h3>
-            <img src="" alt="" />
-          </div>
-          <div class="skill-box">
-            <span class="skills-icon">
-              <i class="devicon-figma-plain"></i>
-            </span>
-            <h3 class="skills-name">Figma</h3>
-            <img src="" alt="" />
-          </div>
-          <div class="skill-box">
-            <span class="skills-icon">
-              <i class="devicon-canva-original"></i>
-            </span>
-            <h3 class="skills-name">Canva</h3>
-            <img src="" alt="" />
-          </div>
-          <div class="skill-box">
-            <span class="skills-icon">
-              <i class="devicon-sass-original"></i>
-            </span>
-            <h3 class="skills-name">Sass</h3>
-            <img src="" alt="" />
-          </div>
-          <div class="skill-box">
-            <span class="skills-icon">
-              <i class="devicon-java-plain"></i>
-            </span>
-            <h3 class="skills-name">Java</h3>
-            <img src="" alt="" />
-          </div>
-          <div class="skill-box">
-            <span class="skills-icon">
-              <i class="devicon-php-plain"></i>
-            </span>
-            <h3 class="skills-name">PHP</h3>
-            <img src="" alt="" />
-          </div>
-          <div class="skill-box">
-            <span class="skills-icon">
-              <i class="devicon-laravel-plain"></i>
-            </span>
-            <h3 class="skills-name">Laravel</h3>
-            <img src="" alt="" />
-          </div>
+        <div class="home-column-two">
+          <h2>web designer and developer</h2>
+          <span class="separator-line-horizontal"></span>
+          <img src="assets/img/polygon.svg" alt="computer image" />
         </div>
       </div>
     </section>
+    <div class="cv-button-big">Download My CV</div>
+    <div class="cv-button-small">My CV</div>
 
     <!--========================================== PORTOFOLIO ==========================================-->
-    <section class="section" id="portofolio">
-      <!-- data -->
-      <div class="portofolio-data">
-        <h1 class="section-title align-center">Portofolio</h1>
-      </div>
-      <p class="section-description align-center">Web Design projects</p>
-      <div class="portofolio-container container">
-        <!-- Item -->
-        <div class="portofolio-item">
-          <div class="project-box">
-            <a
-              href="music-zone.html"
-              target="_self"
-              aria-label="Link to Figma design and prototype of a musical score tablet app
-              for classical musicians">
-              <img
-                src="assets/img/music-score.jpg"
-                alt=""
-                class="project-img" />
-              <div class="project-info">
-                <div class="caption absolute-center">
-                  <h2>Music Sheet App</h2>
+    <section class="section portofolio" id="portofolio">
+      <div class="container portofolio-container">
+        <h1>My Portofolio</h1>
+        <div class="projects-container">
+          <h3>Web Design Projects</h3>
+          <div class="projects">
+            <!-- Project 1 -->
+            <a href="#" target="_self" aria-label="">
+              <div class="project-card">
+                <div class="project-card-image">
+                  <img src="assets/img/techno.jpg" alt="project card image" />
+                </div>
+                <div class="project-card-text">
+                  <h4>ViennaTechno</h4>
                   <p>
-                    The Figma design and prototype of a musical score tablet app
-                    for classical musicians.
+                    An app that helps you find the best Techno Parties in Vienna
                   </p>
                 </div>
               </div>
             </a>
-          </div>
-        </div>
-        <!-- Item -->
-        <div class="portofolio-item">
-          <div class="project-box">
+            <!-- Project 2 -->
             <a
-              href="bee-buy.html"
+              href="/music-zone.html"
               target="_self"
-              aria-label="Link to Figma design and prototype of a shopping website">
-              <img src="assets/img/lavalamp.jpg" alt="" class="project-img" />
-              <div class="project-info">
-                <div class="caption absolute-center">
-                  <h2>E-Commerce Wesbite</h2>
-                  <p>The Figma design and prototype of a shopping website.</p>
+              aria-label="Link to Figma design and prototype of a musical score tablet app
+            for classical musicians">
+              <div class="project-card">
+                <div class="project-card-image">
+                  <img
+                    src="assets/img/orchestra.jpg"
+                    alt="project card image" />
+                </div>
+                <div class="project-card-text">
+                  <h4>MUSICZONE</h4>
+                  <p>
+                    The conceptual design of a tablet app for classical music
+                    scores
+                  </p>
                 </div>
               </div>
             </a>
-          </div>
-        </div>
-        <!-- Item -->
-        <div class="portofolio-item">
-          <div class="project-box">
+            <!-- Project 3 -->
+            <a
+              href="/bee-buy.html"
+              target="_self"
+              aria-label="Link to Figma design and prototype of a shopping website">
+              <div class="project-card">
+                <div class="project-card-image">
+                  <img src="assets/img/couch.jpg" alt="project card image" />
+                </div>
+                <div class="project-card-text">
+                  <h4>BeeBuy</h4>
+                  <p>Design for an E-Commerce website</p>
+                </div>
+              </div>
+            </a>
+            <!-- Project 4 -->
             <a
               href="https://thriving-unicorn-a8d440.netlify.app/"
               target="_self"
               aria-label="Link to a website built from scratch with plain HTML, CSS and JS that
               includes a case study with wireframes and mockups">
-              <img src="assets/img/cat.webp" alt="" class="project-img" />
-              <div class="project-info">
-                <div class="caption absolute-center">
-                  <h2>Cat Shelter Website</h2>
-                  <p>
-                    Website built from scratch with plain HTML, CSS and JS that
-                    includes a case study with wireframes and mockups.
-                  </p>
+              <div class="project-card">
+                <div class="project-card-image">
+                  <img src="assets/img/cat.webp" alt="project card image" />
+                </div>
+                <div class="project-card-text">
+                  <h4>Mao</h4>
+                  <p>A cat shelter website</p>
                 </div>
               </div>
             </a>
           </div>
-        </div>
-        <!-- Item -->
-        <div class="portofolio-item">
-          <div class="project-box">
-            <a
-              href="https://gallant-keller-4f27ef.netlify.app"
-              target="_self"
-              aria-label="Link to a minimalist blog design">
-              <img
-                src="assets/img/minimalist-blog.jpg"
-                alt=""
-                class="project-img" />
-              <div class="project-info">
-                <div class="caption absolute-center">
-                  <h2>Minimalist blog</h2>
-                  <p>
-                    An exercise about layout, typography, and minimalism design.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <p class="section-description align-center">Small apps</p>
-      <div class="portofolio-container container">
-        <!-- Item -->
-        <div class="portofolio-item">
-          <div class="project-box">
+          <h3>Small Apps</h3>
+          <div class="projects">
+            <!-- Project 1 -->
             <a
               href="https://reverent-noether-249976.netlify.app"
               target="_self"
               aria-label="Link to a database created in React that contains different types of
               cocktails and their details">
-              <img src="assets/img/cocktails.jpg" alt="" class="project-img" />
-              <div class="project-info">
-                <div class="caption absolute-center">
-                  <h2>CocktailDB</h2>
+              <div class="project-card">
+                <div class="project-card-image">
+                  <img
+                    src="assets/img/cocktails.jpg"
+                    alt="project card image" />
+                </div>
+                <div class="project-card-text">
+                  <h4>Cocktail Database</h4>
                   <p>
-                    A database created in React that contains different types of
+                    An app created in React that contains different types of
                     cocktails and their details.
                   </p>
                 </div>
               </div>
             </a>
-          </div>
-        </div>
-        <!-- Item -->
-        <!-- <div class="portofolio-item">
-          <div class="project-box">
-            <a
-              href="https://mystifying-panini-0e05b9.netlify.app"
-              target="_self">
-              <img src="assets/img/creativity.jpg" alt="" class="project-img" />
-              <div class="project-info">
-                <div class="caption absolute-center">
-                  <h2>Creativity school</h2>
-                  <p>
-                    An online school site built from scratch. The design of the
-                    web pages is done in Figma.
-                  </p>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div> -->
-        <!-- Item -->
-        <div class="portofolio-item">
-          <div class="project-box">
+            <!-- Project 2 -->
             <a
               href="https://focused-neumann-d54e25.netlify.app"
               target="_self"
-              aria-label="Latest movies database website built with React">
-              <img
-                src="assets/img/movie-popcorn.jpg"
-                alt=""
-                class="project-img" />
-              <div class="project-info">
-                <div class="caption absolute-center">
-                  <h2>MovieDB</h2>
+              aria-label="A link to the latest movies database website built with React">
+              <div class="project-card">
+                <div class="project-card-image">
+                  <img
+                    src="assets/img/movie-popcorn.jpg"
+                    alt="project card image" />
+                </div>
+                <div class="project-card-text">
+                  <h4>MovieDB</h4>
                   <p>A movie database made with React.</p>
                 </div>
               </div>
             </a>
-          </div>
-        </div>
-        <!-- Item -->
-        <div class="portofolio-item">
-          <div class="project-box">
+            <!-- Project 3 -->
             <a
               href="https://competent-hodgkin-08cd91.netlify.app"
               target="_self"
-              aria-label="A simple color generator made with React">
-              <img src="assets/img/colors.jpg" alt="" class="project-img" />
-              <div class="project-info">
-                <div class="caption absolute-center">
-                  <h2>Color generator</h2>
-                  <p>A simple color generator made with React.</p>
+              aria-label="Link to a simple color generator made with React">
+              <div class="project-card">
+                <div class="project-card-image">
+                  <img src="assets/img/colors.jpg" alt="project card image" />
                 </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <!-- Item -->
-        <div class="portofolio-item">
-          <div class="project-box">
-            <a
-              href="https://happy-hopper-c69edb.netlify.app"
-              target="_self"
-              aria-label="Small app that lets you create a grocery list">
-              <img src="assets/img/groceries.jpg" alt="" class="project-img" />
-              <div class="project-info">
-                <div class="caption absolute-center">
-                  <h2>Grocery list</h2>
-                  <p>
-                    A react applet build for making grocery lists or any kind of
-                    list. Making lists is a good habit.
-                  </p>
+                <div class="project-card-text">
+                  <h4>Color generator</h4>
+                  <p>A simple color generator made with React.</p>
                 </div>
               </div>
             </a>
@@ -467,15 +200,13 @@
     </section>
 
     <!--========================================== FOOTER ==========================================-->
-    <section class="footer section" id="footer">
-      <div class="footer-bottom">
-        <p>
-          Copyright &COPY;
-          <a href="#">Ana-Maria FoVo</a>
-          <span id="date"></span>. All rights reserved
-        </p>
-      </div>
-    </section>
+    <footer class="footer" id="footer">
+      <p class="footer-text">
+        Copyright &COPY;
+        <a href="#">Ana-Maria FoVo</a>
+        <span id="date"></span>. All rights reserved
+      </p>
+    </footer>
   </body>
 
   <script src="assets/js/main.js"></script>

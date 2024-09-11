@@ -1,15 +1,74 @@
-.btn-round {
-  display: inline-block;
-  padding: 0.2rem 0.75rem;
-  border-radius: 50rem;
-  cursor: pointer;
-  border: 2px solid var(--text-color);
+.link-button {
+  padding: 16px 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  transition: 1s;
+  font-weight: 700;
   color: var(--text-color);
-  background-color: var(--vista-blue);
-  transition: all 0.4s linear;
-  text-align: center;
-  transition: 1.5s;
 }
-.btn-round:hover {
-  background-color: transparent;
+.link-button:hover {
+  background-color: var(--celeste);
+}
+.theme-button {
+  cursor: pointer;
+}
+#dark-theme-button {
+  display: none;
+}
+.cv-button-big {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  padding: 16px 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  transition: 1s;
+  font-weight: 700;
+  background-color: var(--celadon);
+  color: var(--text-color);
+  z-index: 100;
+  border: 2px solid var(--text-color);
+  cursor: pointer;
+  transition: 1s;
+}
+.cv-button-small {
+  display: none;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  transition: 1s;
+  background-color: var(--celadon);
+  color: var(--text-color);
+  z-index: 100;
+  border: 2px solid var(--text-color);
+  cursor: pointer;
+  transition: 1s;
+  padding: 10px;
+  font-weight: 500;
+}
+.cv-button-big:hover,
+.cv-button-small:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .cv-button-big {
+    display: none;
+    padding: 10px 32px;
+    font-weight: 500;
+  }
+  .cv-button-small {
+    display: block;
+  }
+  .link-button {
+    padding: 12px 10px;
+  }
+  .theme-button {
+    transform: scale(0.8);
+  }
 }

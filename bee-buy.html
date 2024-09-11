@@ -5,143 +5,54 @@
     <meta
       name="viewport"
       content="height=device-height, width=device-width, initial-scale=1.0, target-densitydpi=device-dpi" />
-    <title>FOVO</title>
-
+    <title>BeeBuy</title>
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
   </head>
   <body>
-    <header class="header" id="header">
-      <!--========================================== NAVBAR ==========================================-->
-      <nav class="nav">
-        <!-- nav menu -->
-        <div class="nav-menu" id="nav-menu">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="/index.html" class="nav-link" aria-label="Home Page">
-                <i class="uil uil-estate nav-icon"></i>
-                Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                href="/index.html#skills"
-                class="nav-link"
-                aria-label="Skills Section">
-                <i class="uil uil-file-alt nav-icon"></i>
-                Skills
-              </a>
-            </li>
-            <li class="nav-item" id="projects-navLink">
-              <a
-                href="/index.html#portofolio"
-                class="nav-link"
-                aria-label="Portofolio Section">
-                <i class="uil uil-scenery nav-icon"></i>
-                Portofolio
-              </a>
-              <ul class="nav-item-list" id="projects-list-navLink">
-                <li><b>Design</b></li>
-                <li class="list-link">
-                  <a
-                    href="/music-zone.html"
-                    target="_self"
-                    aria-label="Link to Figma design and prototype of a musical score tablet app
-                    for classical musicians">
-                    MUSICZONE - score app for musicians
-                  </a>
-                </li>
-                <li class="list-link">
-                  <a
-                    href="/bee-buy.html"
-                    target="_self"
-                    aria-label="Link to Figma design and prototype of a shopping website">
-                    BeeBuy - E-commerce website
-                  </a>
-                </li>
-                <li class="list-link">
-                  <a
-                    href="https://thriving-unicorn-a8d440.netlify.app/"
-                    target="_self"
-                    aria-label="Link to a website built from scratch with plain HTML, CSS and JS that
-                    includes a case study with wireframes and mockups">
-                    Mao - Cat Shelter
-                  </a>
-                </li>
-                <li class="list-link">
-                  <a
-                    href="https://gallant-keller-4f27ef.netlify.app"
-                    target="_self"
-                    aria-label="Link to a minimalist blog design">
-                    Minimalism life - minimalist blog design
-                  </a>
-                </li>
-                <li><b>Small apps</b></li>
-                <li class="list-link">
-                  <a
-                    href="https://reverent-noether-249976.netlify.app"
-                    target="_self"
-                    aria-label="Link to a database created in React that contains different types of
-                    cocktails and their details">
-                    Cocktail DB
-                  </a>
-                </li>
-                <li class="list-link">
-                  <a
-                    href="https://focused-neumann-d54e25.netlify.app"
-                    target="_self"
-                    aria-label="Latest movies database website built with React">
-                    Movie DB
-                  </a>
-                </li>
-                <li class="list-link">
-                  <a
-                    href="https://competent-hodgkin-08cd91.netlify.app"
-                    target="_self"
-                    aria-label="A simple color generator made with React">
-                    Color generator
-                  </a>
-                </li>
-                <li class="list-link">
-                  <a
-                    href="https://happy-hopper-c69edb.netlify.app"
-                    target="_self"
-                    aria-label="Small app that lets you create a grocery list">
-                    Grocery list
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+    <!--========================================== NAVBAR ==========================================-->
+    <nav class="navbar-fixed">
+      <img src="assets/img/logo.svg" alt="logo image" class="logo" />
+      <div class="navbar-elements">
+        <div class="navbar-links">
+          <a href="#" class="link-button" aria-label="Home Navbar Link">Home</a>
+          <a
+            href="#portofolio"
+            class="link-button"
+            aria-label="Portofolio Navbar Link">
+            Portofolio
+          </a>
         </div>
-        <!-- nav btn -->
-        <div class="btn-toggle" id="btn-toggle">
-          <i class="uil uil-bars"></i>
+        <div class="theme">
+          <span class="separator-line-vertical"></span>
+          <div class="theme-button">
+            <img
+              src="assets/img/theme-button-light-big.svg"
+              id="light-theme-button"
+              alt="theme button" />
+            <img
+              src="assets/img/theme-button-dark-big.svg"
+              id="dark-theme-button"
+              alt="theme button" />
+          </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
 
     <!--========================================== CASE STUDY ==========================================-->
-    <section class="section project">
-      <div class="header-shop">
-        <h1 class="section-title align-center">
+    <header class="project-header">
+      <div class="header-beebuy">
+        <h1>
           <i>BeeBuy</i>
         </h1>
-        <h3 class="align-center project-description">
-          An e-commerce website concept
-        </h3>
+        <h3>An e-commerce website concept</h3>
       </div>
-    </section>
+    </header>
+
     <!-- Overview -->
-    <section class="section project-section">
-      <div class="project-container">
-        <h2 class="project-subtitle-shop">Overview</h2>
-        <p class="section-description project-paragraph">
+    <section class="project-description">
+      <div class="project-overview">
+        <h2 class="project-subtitle-beebuy">Overview</h2>
+        <p>
           BeeBuy is a shopping website that features a clean and user-friendly
           interface with distinct product categories such as Music, Electronics,
           Clothing, Home, and Beauty. Each category is visually represented with
@@ -150,139 +61,96 @@
           showcases seasonal discounts, bestsellers, and monthly deals.
         </p>
       </div>
-      <div class="project-subsection">
-        <div class="process-container process-list">
-          <h2 class="project-subtitle-shop">Process</h2>
-          <ol class="project-paragraph">
-            <li>Identify User Persona - the professional classical musician</li>
-            <li>Client Questionnaire</li>
-            <li>Sitemap</li>
-            <li>User Flows</li>
-            <li>Ideation</li>
-            <li>Design - in Figma</li>
-            <li>Iterate pervious steps until design is complete and tested</li>
-          </ol>
-        </div>
+      <div class="project-process">
+        <h2 class="project-subtitle-beebuy">Process</h2>
+        <ol>
+          <li>Identify User Persona - the professional classical musician</li>
+          <li>Build the Sitemap</li>
+          <li>Create User Flows</li>
+          <li>Ideation</li>
+          <li>Design - in Figma</li>
+          <li>Iterate pervious steps until design is complete and tested</li>
+        </ol>
       </div>
     </section>
+
     <!-- Images -->
-    <section class="section project-section highlight-section-shop">
-      <div class="image-subsection-shop">
-        <div class="image-container">
+    <section class="project-images images-beebuy">
+      <a
+        href="assets/img/prototypes/bee-buy/Home.png"
+        target="_self"
+        aria-label="Prototype image of Home Page">
+        <img src="assets/img/prototypes/bee-buy/Home-1.png" alt="" />
+      </a>
+      <a
+        href="assets/img/prototypes/bee-buy/Home-2.png"
+        target="_self"
+        aria-label="Prototype image of Home Page">
+        <img src="assets/img/prototypes/bee-buy/Home-2.png" alt="" />
+      </a>
+      <a href="assets/img/prototypes/bee-buy/Home-3.png" target="_self">
+        <img src="assets/img/prototypes/bee-buy/Home-3.png" alt="" />
+      </a>
+      <a href="assets/img/prototypes/bee-buy/Product.png" target="_self">
+        <img src="assets/img/prototypes/bee-buy/Product.png" alt="" />
+      </a>
+      <a
+        href="assets/img/prototypes/bee-buy/Profile_user-data.png"
+        target="_self">
+        <img src="assets/img/prototypes/bee-buy/Profile_user-data.png" alt="" />
+      </a>
+      <a
+        href="assets/img/prototypes/bee-buy/Profile_coupons.png"
+        target="_self">
+        <img src="assets/img/prototypes/bee-buy/Profile_coupons.png" alt="" />
+      </a>
+    </section>
+
+    <!-- Design -->
+    <section class="project-prototype">
+      <h2 class="project-subtitle-beebuy">Design</h2>
+      <h4>Checkout the prototype here:</h4>
+      <iframe
+        style="border: 1px solid rgba(0, 0, 0, 0.1)"
+        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F27DYhpSCaXtDksb8b71wmz%2FBeeBuy%3Fnode-id%3D1-2%26t%3Dd1FwfiAqs0UV0M2W-1%26scaling%3Dscale-down-width%26content-scaling%3Dfixed%26page-id%3D0%253A1"
+        allowfullscreen>
+      </iframe>
+    </section>
+
+    <!-- Ideation -->
+    <section class="project-ideation">
+      <h2 class="project-subtitle-beebuy">Ideation</h2>
+      <h4>User flows for the most important features</h4>
+      <div class="user-flows">
+        <div>
+          <p>Sign Up / Sign In process:</p>
           <a
-            class="prototype-image small-image"
-            href="assets/img/prototypes/bee-buy/Home.png"
-            target="_self"
-            aria-label="Prototype image of Home Page">
-            <img
-              class="project-image"
-              src="assets/img/prototypes/bee-buy/Home-1.png"
-              alt="" />
-          </a>
-          <a
-            class="prototype-image small-image"
-            href="assets/img/prototypes/bee-buy/Home-2.png"
-            target="_self"
-            aria-label="Prototype image of Home Page">
-            <img
-              class="project-image"
-              src="assets/img/prototypes/bee-buy/Home-2.png"
-              alt="" />
-          </a>
-          <a
-            class="prototype-image small-image"
-            href="assets/img/prototypes/bee-buy/Home-3.png"
+            href="assets/img/user-flows/bee-buy/sign_in-sign_up.png"
             target="_self">
             <img
-              class="project-image"
-              src="assets/img/prototypes/bee-buy/Home-3.png"
-              alt="" />
-          </a>
-          <a
-            class="prototype-image small-image"
-            href="assets/img/prototypes/bee-buy/Product.png"
-            target="_self">
-            <img
-              class="project-image"
-              src="assets/img/prototypes/bee-buy/Product.png"
-              alt="" />
-          </a>
-          <a
-            class="prototype-image small-image"
-            href="assets/img/prototypes/bee-buy/Profile_user-data.png"
-            target="_self">
-            <img
-              class="project-image"
-              src="assets/img/prototypes/bee-buy/Profile_user-data.png"
-              alt="" />
-          </a>
-          <a
-            class="prototype-image small-image"
-            href="assets/img/prototypes/bee-buy/Profile_coupons.png"
-            target="_self">
-            <img
-              class="project-image"
-              src="assets/img/prototypes/bee-buy/Profile_coupons.png"
+              src="assets/img/user-flows/bee-buy/sign_in-sign_up.png"
               alt="" />
           </a>
         </div>
-      </div>
-    </section>
-    <!-- Design -->
-    <section class="section project-section">
-      <div class="project-container">
-        <h2 class="project-subtitle-music">Design</h2>
-        <h4 class="project-description">Checkout the prototype here:</h4>
-        <iframe
-          style="border: 1px solid rgba(0, 0, 0, 0.1)"
-          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F27DYhpSCaXtDksb8b71wmz%2FBeeBuy%3Fnode-id%3D1-2%26t%3Dd1FwfiAqs0UV0M2W-1%26scaling%3Dscale-down-width%26content-scaling%3Dfixed%26page-id%3D0%253A1"
-          allowfullscreen></iframe>
-      </div>
-    </section>
-    <!-- Ideation -->
-    <section class="section project-section">
-      <div class="project-container">
-        <h2 class="project-subtitle-shop">Ideation</h2>
-        <h4 class="project-description">
-          User flows for the most important features
-        </h4>
-        <div class="user-flows">
-          <div>
-            <p>Sign Up / Sign In process:</p>
-            <a
-              href="assets/img/user-flows/bee-buy/sign_in-sign_up.png"
-              target="_self">
-              <img
-                class="prototype-image"
-                src="assets/img/user-flows/bee-buy/sign_in-sign_up.png"
-                alt="" />
-            </a>
-          </div>
-          <div>
-            <p>Change User Data:</p>
-            <a
-              href="assets/img/user-flows/bee-buy/change-data.png"
-              target="_self">
-              <img
-                class="prototype-image"
-                src="assets/img/user-flows/bee-buy/change-data.png"
-                alt="" />
-            </a>
-          </div>
+        <div>
+          <p>Change User Data:</p>
+          <a
+            href="assets/img/user-flows/bee-buy/change-data.png"
+            target="_self">
+            <img src="assets/img/user-flows/bee-buy/change-data.png" alt="" />
+          </a>
         </div>
       </div>
     </section>
 
     <!--========================================== FOOTER ==========================================-->
-    <section class="footer section" id="footer">
-      <div class="footer-bottom">
-        <p>
-          Copyright &COPY;
-          <a href="#">Ana-Maria FoVo</a>
-          <span id="date"></span>. All rights reserved
-        </p>
-      </div>
-    </section>
+    <footer class="footer" id="footer">
+      <p class="footer-text">
+        Copyright &COPY;
+        <a href="#">Ana-Maria FoVo</a>
+        <span id="date"></span>. All rights reserved
+      </p>
+    </footer>
   </body>
   <script src="assets/js/main.js"></script>
 </html>

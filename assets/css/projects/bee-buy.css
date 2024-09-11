@@ -1,52 +1,18 @@
-.header-shop {
+.header-beebuy {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 5rem;
-  background: url(/assets/img/sofa.jpg);
+  background: url(/assets/img/couch.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.project-subtitle-shop {
-  font-size: 1.75rem;
+.project-subtitle-beebuy {
   font-weight: 700;
   color: #06d6a0;
-  margin: 1rem 0;
 }
-.highlight-section-shop {
-  margin: 2rem 0;
+.images-beebuy {
   background-color: #ef476e35;
-}
-.image-subsection-shop {
-  padding: 1rem 2rem;
-}
-.image-container {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-gap: 1rem;
-}
-.small-image img {
-  border-radius: 15px;
-  height: 154px;
-  width: 272px;
-  object-fit: cover;
-}
-
-@media (min-width: 576px) {
-  .image-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width: 992px) {
-  .image-container {
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
-  }
-  .small-image img {
-    height: 254px;
-    width: 372px;
-    object-fit: cover;
-  }
 }

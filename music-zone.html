@@ -5,143 +5,54 @@
     <meta
       name="viewport"
       content="height=device-height, width=device-width, initial-scale=1.0, target-densitydpi=device-dpi" />
-    <title>FOVO</title>
-
+    <title>MUSICZONE</title>
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link
-      rel="stylesheet"
-      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css" />
   </head>
   <body>
-    <header class="header" id="header">
-      <!--========================================== NAVBAR ==========================================-->
-      <nav class="nav">
-        <!-- nav menu -->
-        <div class="nav-menu" id="nav-menu">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="/index.html" class="nav-link" aria-label="Home Page">
-                <i class="uil uil-estate nav-icon"></i>
-                Home
-              </a>
-            </li>
-            <li class="nav-item">
-              <a
-                href="/index.html#skills"
-                class="nav-link"
-                aria-label="Skills Section">
-                <i class="uil uil-file-alt nav-icon"></i>
-                Skills
-              </a>
-            </li>
-            <li class="nav-item" id="projects-navLink">
-              <a
-                href="/index.html#portofolio"
-                class="nav-link"
-                aria-label="Portofolio Section">
-                <i class="uil uil-scenery nav-icon"></i>
-                Portofolio
-              </a>
-              <ul class="nav-item-list" id="projects-list-navLink">
-                <li><b>Design</b></li>
-                <li class="list-link">
-                  <a
-                    href="/music-zone.html"
-                    target="_self"
-                    aria-label="Link to Figma design and prototype of a musical score tablet app
-                    for classical musicians">
-                    MUSICZONE - score app for musicians
-                  </a>
-                </li>
-                <li class="list-link">
-                  <a
-                    href="/bee-buy.html"
-                    target="_self"
-                    aria-label="Link to Figma design and prototype of a shopping website">
-                    BeeBuy - E-commerce website
-                  </a>
-                </li>
-                <li class="list-link">
-                  <a
-                    href="https://thriving-unicorn-a8d440.netlify.app/"
-                    target="_self"
-                    aria-label="Link to a website built from scratch with plain HTML, CSS and JS that
-                    includes a case study with wireframes and mockups">
-                    Mao - Cat Shelter
-                  </a>
-                </li>
-                <li class="list-link">
-                  <a
-                    href="https://gallant-keller-4f27ef.netlify.app"
-                    target="_self"
-                    aria-label="Link to a minimalist blog design">
-                    Minimalism life - minimalist blog design
-                  </a>
-                </li>
-                <li><b>Small apps</b></li>
-                <li class="list-link">
-                  <a
-                    href="https://reverent-noether-249976.netlify.app"
-                    target="_self"
-                    aria-label="Link to a database created in React that contains different types of
-                    cocktails and their details">
-                    Cocktail DB
-                  </a>
-                </li>
-                <li class="list-link">
-                  <a
-                    href="https://focused-neumann-d54e25.netlify.app"
-                    target="_self"
-                    aria-label="Latest movies database website built with React">
-                    Movie DB
-                  </a>
-                </li>
-                <li class="list-link">
-                  <a
-                    href="https://competent-hodgkin-08cd91.netlify.app"
-                    target="_self"
-                    aria-label="A simple color generator made with React">
-                    Color generator
-                  </a>
-                </li>
-                <li class="list-link">
-                  <a
-                    href="https://happy-hopper-c69edb.netlify.app"
-                    target="_self"
-                    aria-label="Small app that lets you create a grocery list">
-                    Grocery list
-                  </a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+    <!--========================================== NAVBAR ==========================================-->
+    <nav class="navbar-fixed">
+      <img src="assets/img/logo.svg" alt="logo image" class="logo" />
+      <div class="navbar-elements">
+        <div class="navbar-links">
+          <a href="#" class="link-button" aria-label="Home Navbar Link">Home</a>
+          <a
+            href="#portofolio"
+            class="link-button"
+            aria-label="Portofolio Navbar Link">
+            Portofolio
+          </a>
         </div>
-        <!-- nav btn -->
-        <div class="btn-toggle" id="btn-toggle">
-          <i class="uil uil-bars"></i>
+        <div class="theme">
+          <span class="separator-line-vertical"></span>
+          <div class="theme-button">
+            <img
+              src="assets/img/theme-button-light-big.svg"
+              id="light-theme-button"
+              alt="theme button" />
+            <img
+              src="assets/img/theme-button-dark-big.svg"
+              id="dark-theme-button"
+              alt="theme button" />
+          </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
 
     <!--========================================== CASE STUDY ==========================================-->
-    <section class="section project">
-      <div class="header-music">
-        <h1 class="section-title align-center">
+    <header class="project-header">
+      <div class="header-musiczone">
+        <h1>
           <i>MUSICZONE</i>
         </h1>
-        <h3 class="align-center project-description">
-          A music score tablet app for classical musicians
-        </h3>
+        <h3>A music score tablet app for classical musicians</h3>
       </div>
-    </section>
+    </header>
+
     <!-- Overview -->
-    <section class="section project-section">
-      <div class="project-container">
-        <h2 class="project-subtitle-music">Overview</h2>
-        <p class="section-description project-paragraph">
+    <section class="project-description">
+      <div class="project-overview">
+        <h2 class="project-subtitle-musiczone">Overview</h2>
+        <p>
           MUSICZONE is an app that helps classical musicians carry all the
           scores they need inside one device. The app has access to a library,
           which allows the user to search and download the music sheet they
@@ -150,179 +61,149 @@
           library.
         </p>
       </div>
-      <div class="project-subsection">
-        <div class="project-container">
-          <h2 class="project-subtitle-music align-center">The Problem</h2>
-          <p class="section-description project-paragraph">
-            Classical musicians need to carry multiple music sheets many times
-            when they go to rehearsal. Not to forget is that they already need
-            to carry their instrument in many cases. This can become very
-            uncomfortable when they have a lot of scores to carry around, and it
-            can even affect their physical well-being, leading to back problems.
-          </p>
-        </div>
-        <div class="project-container">
-          <h2 class="project-subtitle-music align-center">The Solution</h2>
-          <p class="section-description project-paragraph">
-            A tablet is much more comfortable to carry around, compared to many
-            musical sheets. The focus of this app is to allow access to a
-            library that includes many music sheets, which can be downloaded and
-            accessed offline, when the user needs to. The option to also scan or
-            import a musical score enables the musician to complete their
-            library with any score they need. This way, the musician needs to
-            carry around only a tablet instead of multiple physical paper sheets
-            with all the notes they need.
-          </p>
-        </div>
-      </div>
-      <div class="project-subsection">
-        <div class="process-container process-list">
-          <h2 class="project-subtitle-music">Process</h2>
-          <ol class="project-paragraph">
-            <li>
-              Ideation - identify target market, user persona and research
-              similar existing products
-            </li>
-            <li>Sitemap - a general idea of app's structure</li>
-            <li>User Flows - user scenarios and user stories</li>
-            <li>Mockups - paper and pen stage - and Prototyping</li>
-            <li>Iniaitla Design of the full app - in Figma</li>
-            <li>Testing</li>
-            <li>Iterate pervious steps until design is complete</li>
-          </ol>
-        </div>
+      <div class="project-overview">
+        <h2 class="project-subtitle-musiczone">The Problem</h2>
+        <p>
+          Classical musicians need to carry multiple music sheets many times
+          when they go to rehearsal. Not to forget is that they already need to
+          carry their instrument in many cases. This can become very
+          uncomfortable when they have a lot of scores to carry around, and it
+          can even affect their physical well-being, leading to back problems.
+        </p>
       </div>
     </section>
-    <!-- Research -->
-    <section class="section project-section">
-      <div class="project-container">
-        <h2 class="project-subtitle-music">Research</h2>
-        <h4 class="project-description">Target User Group Questionnaire</h4>
-        <p class="section-description project-paragraph">
-          I created a list of questions that helped me better understand the
-          needs of the targeted user group, the professional classical
-          musicians. The outcomes of the first iteration were general ideas
-          regarding what the user of this app would need mostly, like a personal
-          library, the scan tool, and also the possibility to create a practice
-          list, in order to easily access the sheets that are needed for a
-          longer period of time for daily practice.
+    <section class="project-description">
+      <div class="project-overview">
+        <h2 class="project-subtitle-musiczone">The Solution</h2>
+        <p>
+          A tablet is much more comfortable to carry around, compared to many
+          musical sheets. The focus of this app is to allow access to a library
+          that includes many music sheets, which can be downloaded and accessed
+          offline, when the user needs to. The option to also scan or import a
+          musical score enables the musician to complete their library with any
+          score they need. This way, the musician needs to carry around only a
+          tablet instead of multiple physical paper sheets with all the notes
+          they need.
         </p>
-        <h4 class="project-description">Some of these questions include:</h4>
-        <ol class="project-paragraph">
+      </div>
+      <div class="project-process">
+        <h2 class="project-subtitle-musiczone">Process</h2>
+        <ol>
           <li>
-            What features do you think would be most used by musicians in a
-            musical sheet app?
+            Ideation - identify target market, user persona and research similar
+            existing products
           </li>
-          <li>
-            If you used similar apps, what did you feel was missing from these
-            apps?
-          </li>
-          <li>
-            How do you think you could better organize the music sheets in such
-            an app?
-          </li>
+          <li>Sitemap - a general idea of app's structure</li>
+          <li>User Flows - user scenarios and user stories</li>
+          <li>Mockups - paper and pen stage - and Prototyping</li>
+          <li>Iniaitla Design of the full app - in Figma</li>
+          <li>Accessibility Testing</li>
+          <li>Iterate pervious steps until design is complete</li>
         </ol>
       </div>
     </section>
+
+    <!-- Research -->
+    <section class="project-research">
+      <h2 class="project-subtitle-musiczone">Research</h2>
+      <h4 class="project-subtitle-musiczone">
+        Target User Group Questionnaire
+      </h4>
+      <p>
+        I created a list of questions that helped me better understand the needs
+        of the targeted user group, the professional classical musicians. The
+        outcomes of the first iteration were general ideas regarding what the
+        user of this app would need mostly, like a personal library, the scan
+        tool, and also the possibility to create a practice list, in order to
+        easily access the sheets that are needed for a longer period of time for
+        daily practice.
+      </p>
+      <h4 class="project-subtitle-musiczone">
+        Some of these questions include:
+      </h4>
+      <ol>
+        <li>
+          What features do you think would be most used by musicians in a
+          musical sheet app?
+        </li>
+        <li>
+          If you used similar apps, what did you feel was missing from these
+          apps?
+        </li>
+        <li>
+          How do you think you could better organize the music sheets in such an
+          app?
+        </li>
+      </ol>
+    </section>
+
     <!-- Images -->
-    <section class="section project-section highlighted-section-music">
-      <div class="image-subsection-music">
-        <a
-          class="prototype-image"
-          href="assets/img/prototypes/music-zone/Home.png"
-          target="_self">
-          <img src="assets/img/prototypes/music-zone/Home.png" alt="" />
-        </a>
-        <a
-          class="prototype-image"
-          href="assets/img/prototypes/music-zone/Profile.png"
-          target="_self">
-          <img src="assets/img/prototypes/music-zone/Profile.png" alt="" />
-        </a>
-        <a
-          class="prototype-image"
-          href="assets/img/prototypes/music-zone/Library.png"
-          target="_self">
-          <img src="assets/img/prototypes/music-zone/Library.png" alt="" />
-        </a>
-        <a
-          class="prototype-image"
-          href="assets/img/prototypes/music-zone/Download.png"
-          target="_self">
-          <img src="assets/img/prototypes/music-zone/Download.png" alt="" />
-        </a>
-        <a
-          class="prototype-image"
-          href="assets/img/prototypes/music-zone/Lists.png"
-          target="_self">
-          <img src="assets/img/prototypes/music-zone/Lists.png" alt="" />
-        </a>
-        <a
-          class="prototype-image"
-          href="assets/img/prototypes/music-zone/Recordings.png"
-          target="_self">
-          <img src="assets/img/prototypes/music-zone/Recordings.png" alt="" />
-        </a>
-      </div>
+    <section class="project-images images-musiczone">
+      <a href="assets/img/prototypes/music-zone/Home.png" target="_self">
+        <img src="assets/img/prototypes/music-zone/Home.png" alt="" />
+      </a>
+      <a href="assets/img/prototypes/music-zone/Profile.png" target="_self">
+        <img src="assets/img/prototypes/music-zone/Profile.png" alt="" />
+      </a>
+      <a href="assets/img/prototypes/music-zone/Library.png" target="_self">
+        <img src="assets/img/prototypes/music-zone/Library.png" alt="" />
+      </a>
+      <a href="assets/img/prototypes/music-zone/Download.png" target="_self">
+        <img src="assets/img/prototypes/music-zone/Download.png" alt="" />
+      </a>
+      <a href="assets/img/prototypes/music-zone/Lists.png" target="_self">
+        <img src="assets/img/prototypes/music-zone/Lists.png" alt="" />
+      </a>
+      <a href="assets/img/prototypes/music-zone/Recordings.png" target="_self">
+        <img src="assets/img/prototypes/music-zone/Recordings.png" alt="" />
+      </a>
     </section>
+
     <!-- Design -->
-    <section class="section project-section">
-      <div class="project-container">
-        <h2 class="project-subtitle-music">Design</h2>
-        <h4 class="project-description">Checkout the prototype here:</h4>
-        <iframe
-          style="border: 1px solid rgba(0, 0, 0, 0.1)"
-          src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FyeIdCkbQcsRjkHRkHesk8B%2FMusic-Sheet-App%3Fnode-id%3D2-2%26t%3D3azB7kGt8ZKMR9Mm-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D0%253A1"
-          allowfullscreen>
-        </iframe>
-      </div>
+    <section class="project-prototype">
+      <h2 class="project-subtitle-musiczone">Design</h2>
+      <h4>Checkout the prototype here:</h4>
+      <iframe
+        style="border: 1px solid rgba(0, 0, 0, 0.1)"
+        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FyeIdCkbQcsRjkHRkHesk8B%2FMusic-Sheet-App%3Fnode-id%3D2-2%26t%3D3azB7kGt8ZKMR9Mm-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D0%253A1"
+        allowfullscreen>
+      </iframe>
     </section>
+
     <!-- Ideation -->
-    <section class="section project-section">
-      <div class="project-container">
-        <h2 class="project-subtitle-music">
-          User Flows for Different Scenarios
-        </h2>
-        <h4 class="project-description">
-          User flows for the most important features
-        </h4>
-        <div class="user-flows">
-          <div>
-            <p class="project-paragraph">Download a music score:</p>
-            <a
-              href="assets/img/user-flows/music-zone/download-score.png"
-              target="_self">
-              <img
-                class="prototype-image"
-                src="assets/img/user-flows/music-zone/download-score.png"
-                alt="" />
-            </a>
-          </div>
-          <div>
-            <p class="project-paragraph">Scan a score functionality:</p>
-            <a
-              href="assets/img/user-flows/music-zone/scan-score.png"
-              target="_self">
-              <img
-                class="prototype-image"
-                src="assets/img/user-flows/music-zone/scan-score.png"
-                alt="" />
-            </a>
-          </div>
+    <section class="project-ideation">
+      <h2 class="project-subtitle-musiczone">Ideation</h2>
+      <h4>User flows for the most important features</h4>
+      <div class="user-flows">
+        <div>
+          <p>Sign Up / Sign In process:</p>
+          <a
+            href="assets/img/user-flows/bee-buy/sign_in-sign_up.png"
+            target="_self">
+            <img
+              src="assets/img/user-flows/bee-buy/sign_in-sign_up.png"
+              alt="" />
+          </a>
+        </div>
+        <div>
+          <p>Change User Data:</p>
+          <a
+            href="assets/img/user-flows/bee-buy/change-data.png"
+            target="_self">
+            <img src="assets/img/user-flows/bee-buy/change-data.png" alt="" />
+          </a>
         </div>
       </div>
     </section>
 
     <!--========================================== FOOTER ==========================================-->
-    <section class="footer section" id="footer">
-      <div class="footer-bottom">
-        <p>
-          Copyright &COPY;
-          <a href="#">Ana-Maria FoVo</a>
-          <span id="date"></span>. All rights reserved
-        </p>
-      </div>
-    </section>
+    <footer class="footer" id="footer">
+      <p class="footer-text">
+        Copyright &COPY;
+        <a href="#">Ana-Maria FoVo</a>
+        <span id="date"></span>. All rights reserved
+      </p>
+    </footer>
   </body>
   <script src="assets/js/main.js"></script>
 </html>
