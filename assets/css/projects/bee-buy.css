@@ -4,8 +4,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 5rem;
-  background: url(/assets/img/couch.jpg);
+  padding: 16rem 5rem;
+  background: url(/assets/img/couch-big.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
