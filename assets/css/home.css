@@ -33,7 +33,7 @@
   background: #231f20;
 }
 
-@media (min-width: 1920px) {
+@media screen and (min-width: 1920px) {
   .home {
     padding: 8rem 16rem;
   }
@@ -51,7 +51,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .home-column-one {
     width: 100%;
   }

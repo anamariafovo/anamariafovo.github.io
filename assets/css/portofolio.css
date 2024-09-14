@@ -90,13 +90,13 @@
   }
 }
 
-@media (min-width: 1920px) {
+@media screen and (min-width: 1920px) {
   .portofolio {
     padding: 5rem 16rem 12rem 16rem;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .portofolio-container {
     row-gap: 1rem;
   }

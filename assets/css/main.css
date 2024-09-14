@@ -97,7 +97,7 @@ body.dark-theme {
 }
 
 /*** MEDIA QUERIES ***/
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   h1 {
     font-size: 1.75rem;
   }
