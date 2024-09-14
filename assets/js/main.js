@@ -9,6 +9,16 @@ const selectedIcon = localStorage.getItem('selected-icon');
 const getCurrentTheme = () =>
   document.body.classList.contains('dark-theme') ? 'dark' : 'light';
 
+if (localStorage.getItem('selected-theme') == 'dark') {
+  document.body.classList.add('dark-theme');
+  darkThemeIcon.style.display = 'inline';
+  lightThemeIcon.style.display = 'none';
+} else {
+  document.body.classList.remove('dark-theme');
+  darkThemeIcon.style.display = 'none';
+  lightThemeIcon.style.display = 'inline';
+}
+
 themeButton.addEventListener('click', () => {
   document.body.classList.toggle('dark-theme');
 
@@ -22,16 +32,6 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', 'light');
   }
 });
-
-if (localStorage.getItem('selected-theme') == 'dark') {
-  document.body.classList.add('dark-theme');
-  darkThemeIcon.style.display = 'inline';
-  lightThemeIcon.style.display = 'none';
-} else {
-  document.body.classList.remove('dark-theme');
-  darkThemeIcon.style.display = 'none';
-  lightThemeIcon.style.display = 'inline';
-}
 
 /*========================================== TOGGLE MENU ==========================================*/
 
