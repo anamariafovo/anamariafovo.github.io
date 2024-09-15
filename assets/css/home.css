@@ -39,7 +39,7 @@
   }
   .home-column-one,
   .home-column-two {
-    row-gap: 4rem;
+    row-gap: 3rem;
   }
   .home-column-one p {
     font-weight: 400;

@@ -26,6 +26,18 @@
   align-items: center;
   justify-content: space-between;
 }
+.projects-subsection-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 0.5rem;
+}
+.projects-subsection-underline {
+  width: 100%;
+  height: 3px;
+  background: var(--orchid-pink);
+}
 .project-card {
   display: flex;
   flex-direction: column;

@@ -32,6 +32,12 @@
   background: var(--text-color);
 }
 
+@media screen and (min-width: 1680px) {
+  .navbar-fixed {
+    padding: 2rem 16rem;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .navbar-fixed {
     padding: 2rem 1.5rem;
