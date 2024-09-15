@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 16rem 5rem;
+  padding: 12rem 5rem;
   background: url(/assets/img/orchestra-big.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -14,5 +14,5 @@
   color: #997272;
 }
 .images-musiczone {
-  background-color: #9972725b;
+  background-color: #dbbfbf;
 }

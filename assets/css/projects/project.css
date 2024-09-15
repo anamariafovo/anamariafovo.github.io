@@ -1,5 +1,6 @@
 @import url("bee-buy.css");
 @import url("music-zone.css");
+@import url("vienna-electro.css");
 
 .project-header {
   margin-top: 144px;
@@ -32,7 +33,7 @@
   line-height: 200%; /* 28px */
   letter-spacing: 0.64px;
 }
-.project-images {
+.project-images-desktop {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -40,7 +41,23 @@
   padding: 3rem;
   place-items: center;
 }
-.project-images a {
+.project-images-tablet {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3rem;
+  padding: 3rem;
+  place-items: center;
+}
+.project-images-mobile {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 3rem;
+  padding: 3rem;
+  place-items: center;
+}
+.images-desktop a {
   background-repeat: no-repeat;
   overflow: hidden;
   height: 254px;
@@ -48,12 +65,40 @@
   border-radius: 1rem;
   transition: 0.75s;
 }
-.project-images img {
+.images-desktop img {
   height: 254px;
   width: 372px;
   object-fit: cover;
 }
-.project-images a:hover {
+.images-tablet a {
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 368px;
+  width: 254px;
+  border-radius: 1rem;
+  transition: 0.75s;
+}
+.images-tablet img {
+  height: 368px;
+  width: 254px;
+  object-fit: cover;
+}
+.images-mobile a {
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 422px;
+  width: 195px;
+  border-radius: 1rem;
+  transition: 0.75s;
+}
+.images-mobile img {
+  height: 422px;
+  width: 195px;
+  object-fit: cover;
+}
+.images-desktop a:hover,
+.images-tablet a:hover,
+.images-mobile a:hover {
   transform: scale(1.05);
 }
 .project-prototype {
