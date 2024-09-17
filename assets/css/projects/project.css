@@ -8,6 +8,21 @@
   width: 100%;
   color: #f7f7f7;
 }
+.header-promo {
+  display: inline-block;
+  border-radius: 12px;
+  position: absolute;
+  top: 200px;
+  right: 10px;
+  width: 250px;
+  height: 250px;
+  cursor: pointer;
+  transition: 1s;
+}
+.header-promo:hover {
+  transform: scale(1.05);
+  filter: brightness(1.05);
+}
 .project-description {
   display: flex;
   width: 100%;
@@ -139,6 +154,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .header-promo {
+    display: none;
+  }
   .project-description {
     flex-direction: column;
     padding: 0 2rem;
