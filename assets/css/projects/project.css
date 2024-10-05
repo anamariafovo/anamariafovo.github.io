@@ -173,4 +173,9 @@
   .project-ideation {
     padding: 2rem;
   }
+  .project-images-mobile,
+  .project-images-tablet,
+  .project-images-desktop {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
