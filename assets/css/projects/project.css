@@ -37,7 +37,7 @@
   row-gap: 2rem;
   padding: 2rem;
   background: var(--transparent-highlight);
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 .project-process {
   width: 50%;
@@ -46,7 +46,7 @@
   row-gap: 2rem;
   padding: 2rem;
   background: var(--transparent-highlight);
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 .project-process ol,
 .project-research ol {
