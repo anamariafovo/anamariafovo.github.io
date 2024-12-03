@@ -18,6 +18,7 @@
   /* Theme & Typography */
   --body-color: #f7f7f7;
   --text-color: #231f20;
+  --transparent-highlight: #231f2010;
   --home-color: var(--dutch-white);
   --hover-color: var(--celeste);
   --body-font: "Montserrat", sans-serif;
@@ -92,6 +93,7 @@ iframe {
 body.dark-theme {
   --body-color: #231f20;
   --text-color: #f7f7f7;
+  --transparent-highlight: #ffffff33;
   --home-color: var(--columbia-blue);
   --hover-color: var(--orchid-pink);
 }
