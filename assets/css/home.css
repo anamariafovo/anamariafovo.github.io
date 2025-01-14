@@ -1,9 +1,9 @@
 .home {
   margin-top: 144px;
-  padding: 5rem 8rem;
+  padding: 3rem 5rem;
   background-color: var(--home-color);
   color: #231f20;
-  border-bottom: 2px solid #000;
+  border-bottom: 2px solid #231f20;
 }
 .home-container {
   display: flex;
@@ -12,9 +12,14 @@
   column-gap: 4rem;
   padding: 1rem 2rem;
 }
+.home-column-one {
+  width: 60%;
+}
+.home-column-two {
+  width: 50%;
+}
 .home-column-one,
 .home-column-two {
-  width: 45%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -24,11 +29,13 @@
 .home-column-two {
   padding-top: 1.5rem;
 }
-.home-column-two .separator-line-horizontal {
-  width: 90%;
+.welcome-message {
+  padding: 1rem;
+  background-color: transparent;
+  border: 1px solid #231f20;
 }
 .separator-line-horizontal {
-  width: 100%;
+  width: 60%;
   height: 1px;
   background: #231f20;
 }
