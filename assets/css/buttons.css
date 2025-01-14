@@ -5,8 +5,12 @@
   border-radius: 16px;
   border: 2px solid var(--button-border-color);
   transition: 0.75s;
+  font-family: var(--body-font);
+  font-size: 16px;
   font-weight: 700;
   color: var(--text-color);
+  background: transparent;
+  cursor: pointer;
 }
 .link-button:hover {
   background-color: var(--hover-color);
@@ -18,6 +22,25 @@
 #dark-theme-button {
   display: none;
 }
+.button-thin {
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--body-color);
+  border-radius: 16px;
+  transition: 0.75s;
+  font-family: var(--body-font);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-color);
+  background-color: var(--body-color);
+  cursor: pointer;
+}
+.button-thin:hover {
+  border: 1px solid #231f20;
+  color: #231f20;
+  background-color: transparent;
+}
 .cv-button-big {
   position: fixed;
   display: inline;
@@ -25,6 +48,8 @@
   right: 1rem;
   padding: 16px 40px;
   border-radius: 16px;
+  font-family: var(--body-font);
+  font-size: 16px;
   font-weight: 700;
   background-color: var(--celadon);
   color: #231f20;
@@ -46,6 +71,8 @@
   cursor: pointer;
   transition: 1s;
   padding: 10px;
+  font-family: var(--body-font);
+  font-size: 16px;
   font-weight: 500;
 }
 .cv-button-big:hover,

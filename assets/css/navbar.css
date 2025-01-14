@@ -52,7 +52,7 @@
   .theme {
     column-gap: 0.2rem;
   }
-  .navbar-links a {
+  .navbar-links button {
     font-weight: 500;
   }
   .separator-line-vertical {
