@@ -4,12 +4,34 @@
 @import url("leftovers-lab.css");
 
 .project-header {
-  margin-top: 144px;
+  margin-top: 113px;
   padding: 0;
   margin-bottom: 2rem;
   width: 100%;
   color: #f7f7f7;
   height: 500px;
+}
+.project-presentation-navbar {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--body-color);
+  color: var(--text-color);
+  padding: 2rem 10rem;
+  border-top: 2px solid var(--text-color);
+}
+.project-presentation-navbar a {
+  color: var(--text-color);
+  transition: 0.5s;
+}
+.project-presentation-navbar a:hover {
+  text-decoration: underline;
 }
 .project-description {
   display: flex;
@@ -18,17 +40,20 @@
   column-gap: 4rem;
   justify-content: space-between;
 }
-.project-details img {
-  width: 80%;
-}
 .project-details {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
   padding: 2rem;
   background: var(--transparent-highlight);
   border-radius: 1rem;
+  border: 1px solid var(--text-color);
+}
+.project-details img {
+  width: 80%;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .project-summary {
   display: flex;
@@ -43,6 +68,7 @@
   padding: 2rem;
   background: var(--transparent-highlight);
   border-radius: 1rem;
+  border: 1px solid var(--text-color);
 }
 .project-process {
   width: 50%;
@@ -52,6 +78,7 @@
   padding: 2rem;
   background: var(--transparent-highlight);
   border-radius: 1rem;
+  border: 1px solid var(--text-color);
 }
 .project-details ol,
 .project-description ol,
@@ -130,12 +157,12 @@
 .images-mobile a:hover {
   transform: scale(1.05);
 }
-.project-prototype {
+.project-presentation {
   padding: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   row-gap: 3rem;
 }
 .project-ideation {
@@ -182,10 +209,9 @@
   .project-process {
     margin-bottom: 2rem;
     margin-top: 2rem;
-    width: 100%;
   }
   .project-research,
-  .project-prototype,
+  .project-presentation,
   .project-ideation {
     padding: 2rem;
   }

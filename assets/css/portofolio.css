@@ -1,5 +1,6 @@
 .portofolio {
-  padding: 5rem 8rem;
+  padding: 5rem 16rem 12rem 16rem;
+
   background: var(--body-color);
 }
 .portofolio-container {
@@ -7,7 +8,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  row-gap: 4rem;
+  row-gap: 2rem;
   padding: 1rem 2rem;
 }
 .projects-container {
@@ -166,9 +167,9 @@
   }
 }
 
-@media screen and (min-width: 1680px) {
+@media screen and (max-width: 1680px) {
   .portofolio {
-    padding: 5rem 16rem 12rem 16rem;
+    padding: 3rem 8rem;
   }
 }
 
