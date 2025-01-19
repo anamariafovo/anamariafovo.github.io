@@ -188,13 +188,7 @@
   row-gap: 2rem;
 }
 
-@media screen and (max-width: 1680px) {
-  .navbar-fixed {
-    padding: 1rem 10rem;
-  }
-}
-
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1024px) {
   .project-presentation {
     row-gap: 2rem;
   }
