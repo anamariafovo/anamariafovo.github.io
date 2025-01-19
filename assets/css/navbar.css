@@ -60,3 +60,9 @@
     height: 56px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .navbar-fixed {
+    padding: 1.5rem 1rem;
+  }
+}
