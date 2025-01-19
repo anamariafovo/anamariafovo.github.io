@@ -36,7 +36,7 @@
 .project-description {
   display: flex;
   width: 100%;
-  padding: 2rem 4rem;
+  padding: 2rem 10rem;
   column-gap: 4rem;
   justify-content: space-between;
 }
@@ -203,7 +203,7 @@
   }
   .project-description {
     flex-direction: column;
-    padding: 2rem 10rem;
+    padding: 1rem 2rem;
     column-gap: 2rem;
   }
   .project-details,
