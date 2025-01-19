@@ -69,6 +69,13 @@
   width: 100%;
   object-fit: cover;
 }
+.project-card-big .img-absolute {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
 .project-card-big-text {
   width: 30%;
   height: 100%;
@@ -94,17 +101,6 @@
 .project-card-big-text p {
   font-weight: 400;
   font-size: 0.8rem;
-}
-.project-button {
-  padding: 1.5rem 1rem;
-  background-color: var(--text-color);
-  border-radius: 0.2rem;
-  color: var(--body-color);
-  transition: 0.5s;
-}
-.project-button:hover {
-  background-color: var(--orchid-pink);
-  color: #231f20;
 }
 .project-card-small {
   display: flex;
@@ -176,11 +172,41 @@
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .portofolio-container {
+    padding: 0;
+  }
+  .project-card-big {
+    flex-direction: column;
+    height: auto;
+  }
+  .project-card-big-image {
+    width: 100%;
+  }
+  .project-card-big-text {
+    width: 100%;
+    row-gap: 1rem;
+  }
+  .project-card-big-text h2 {
+    font-size: 1.25rem;
+  }
+  .project-card-big .img-absolute {
+    width: 80px;
+    height: 80px;
+    top: 10px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .portofolio-container {
     row-gap: 1rem;
   }
   .development-projects {
     justify-content: center;
+  }
+  .project-card-big .img-absolute {
+    width: 60px;
+    height: 60px;
+    top: 8px;
   }
 }

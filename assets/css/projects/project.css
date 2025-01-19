@@ -1,6 +1,7 @@
 @import url("bee-buy.css");
 @import url("music-zone.css");
 @import url("vienna-electro.css");
+@import url("leftovers-lab.css");
 
 .project-header {
   margin-top: 144px;
@@ -31,13 +32,18 @@
   justify-content: space-between;
 }
 .project-details {
-  width: 70%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   row-gap: 2rem;
   padding: 2rem;
   background: var(--transparent-highlight);
   border-radius: 1rem;
+}
+.project-summary {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
 }
 .project-overview {
   width: 50%;
@@ -174,6 +180,9 @@
   align-items: flex-start;
   row-gap: 2rem;
 }
+.image-user-persona {
+  width: 80%;
+}
 
 @media screen and (max-width: 960px) {
   .header-promo {
@@ -181,7 +190,7 @@
   }
   .project-description {
     flex-direction: column;
-    padding: 0 2rem;
+    padding: 1rem 2rem;
     column-gap: 2rem;
   }
   .project-details,
@@ -205,5 +214,8 @@
   .images-desktop img {
     height: auto;
     width: auto;
+  }
+  .image-user-persona {
+    width: 100%;
   }
 }
