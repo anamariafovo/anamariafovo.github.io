@@ -44,7 +44,7 @@
 .separator-line-horizontal {
   width: 80%;
   height: 1px;
-  background: #231f20;
+  background: var(--text-color);
 }
 
 @media screen and (max-width: 1680px) {
