@@ -23,7 +23,7 @@
   justify-content: space-between;
   background: var(--body-color);
   color: var(--text-color);
-  padding: 2rem 10rem;
+  padding: 1rem 10rem;
   border-top: 2px solid var(--text-color);
 }
 .project-presentation-navbar a {
@@ -205,7 +205,7 @@
     row-gap: 2rem;
   }
   .project-presentation-navbar {
-    padding: 2rem;
+    padding: 1rem 2rem;
   }
   .project-description {
     flex-direction: column;
@@ -241,7 +241,7 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .project-presentation-navbar {
-    padding: 2rem 1rem;
+    padding: 1rem;
   }
   .project-presentation-navbar a {
     font-size: 0.75rem;
