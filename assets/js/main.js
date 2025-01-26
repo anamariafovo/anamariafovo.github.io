@@ -34,18 +34,18 @@ themeButton.addEventListener('click', () => {
 });
 
 /*========================================== HIDE MENU ON SCROLL ==========================================*/
+var projectMenu = document.getElementById('projectPresentationNavbar');
 
 document.onscroll = function() {
   if (window.innerHeight + window.scrollY > document.body.clientHeight) {
-      document.getElementById('projectPresentationNavbar').style.display =' none';
+      projectMenu.style.display =' none';
   } else {
-    document.getElementById('projectPresentationNavbar').style.display = 'flex';
+    projectMenu.style.display = 'flex';
   }
 }
 
 /*========================================== TOGGLE MENU ==========================================*/
 var projectPresentationNavbarButton = document.getElementById('projectPresentationNavbarButton');
-var projectMenu = document.getElementById('projectPresentationNavbar');
 
 console.log(window.innerWidth > 768);
 if (window.innerWidth > 768) {
