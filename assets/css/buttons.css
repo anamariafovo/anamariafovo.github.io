@@ -93,6 +93,18 @@
 .cv-button-small:hover {
   transform: scale(1.05);
 }
+.project-navbar-button {
+  text-align: center;
+  width: 100%;
+  border-radius: 8px;
+  background-color: var(--transparent-highlight);
+  color: #231f20 !important;
+  z-index: 100;
+  cursor: pointer;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 1rem !important;
+}
 
 @media screen and (max-width: 768px) {
   .cv-button-big {

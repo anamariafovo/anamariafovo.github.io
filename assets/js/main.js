@@ -35,13 +35,37 @@ themeButton.addEventListener('click', () => {
 
 document.onscroll = function() {
   if (window.innerHeight + window.scrollY > document.body.clientHeight) {
-      document.getElementById('presentation-navbar').style.display='none';
+      document.getElementById('presentation-navbar').style.display =' none';
   } else {
-    document.getElementById('presentation-navbar').style.display='flex';
+    document.getElementById('presentation-navbar').style.display = 'flex';
   }
 }
 
 /*========================================== TOGGLE MENU ==========================================*/
+var projectPresentationNavbarButton = document.getElementById('projectPresentationNavbarButton');
+var projectMenu = document.getElementById('projectPresentationNavbar');
+
+console.log(window.innerWidth > 768);
+if (window.innerWidth > 768) {
+  projectPresentationNavbarButton.style.display = 'none';
+} else {
+  projectPresentationNavbarButton.style.display = 'block';
+}
+
+projectPresentationNavbarButton.addEventListener('click', (event) => {
+  event.preventDefault();
+  projectPresentationNavbarButton.innerText = 
+    (projectPresentationNavbarButton.innerText === 'Open Menu')
+    ? 'Close Menu' 
+    : 'Open Menu';
+  projectMenu.classList.toggle('show-project-presentation-navbar');
+});
+
+// projectMenuCloseButton.addEventListener('click', () => {
+//   projectMenu.style.bottom = -40;
+//   projectMenuOpenButton.style.display = 'block';
+//   projectMenuCloseButton.style.display = 'none';
+// });
 
 /*========================================== REMOVE MENU MOBILE ==========================================*/
 
