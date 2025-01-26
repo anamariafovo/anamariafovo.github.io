@@ -61,16 +61,6 @@ projectPresentationNavbarButton.addEventListener('click', (event) => {
   projectMenu.classList.toggle('show-project-presentation-navbar');
 });
 
-// projectMenuCloseButton.addEventListener('click', () => {
-//   projectMenu.style.bottom = -40;
-//   projectMenuOpenButton.style.display = 'block';
-//   projectMenuCloseButton.style.display = 'none';
-// });
-
-/*========================================== REMOVE MENU MOBILE ==========================================*/
-
-/*========================================== SHOW PROJECT LIST ==========================================*/
-
 /*========================================== SET DATE DYNAMICALLY ==========================================*/
 const date = document.getElementById('date');
 date.innerHTML = new Date().getFullYear();
