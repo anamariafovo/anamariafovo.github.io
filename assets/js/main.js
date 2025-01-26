@@ -33,11 +33,13 @@ themeButton.addEventListener('click', () => {
   }
 });
 
+/*========================================== HIDE MENU ON SCROLL ==========================================*/
+
 document.onscroll = function() {
   if (window.innerHeight + window.scrollY > document.body.clientHeight) {
-      document.getElementById('presentation-navbar').style.display =' none';
+      document.getElementById('projectPresentationNavbar').style.display =' none';
   } else {
-    document.getElementById('presentation-navbar').style.display = 'flex';
+    document.getElementById('projectPresentationNavbar').style.display = 'flex';
   }
 }
 

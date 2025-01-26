@@ -98,7 +98,6 @@
   width: 100%;
   border-radius: 8px;
   background-color: var(--transparent-highlight);
-  color: #231f20 !important;
   z-index: 100;
   cursor: pointer;
   padding: 10px;
