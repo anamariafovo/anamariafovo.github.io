@@ -45,8 +45,17 @@ if (window.innerWidth > 768) {
 
 navbarButton.addEventListener('click', (event) => {
   event.preventDefault();
-    navbarElements.classList.toggle('show-navbar-elements');
+  navbarElements.classList.toggle('show-navbar-elements');
 });
+
+if (window.innerWidth <= 768) {
+  var navbarLinks = document.getElementById('navbarLinks').children;
+  for (i = 0; i < navbarLinks.length; ++i) {
+    navbarLinks[i].addEventListener('click', () => {
+      navbarElements.classList.remove('show-navbar-elements');
+    });
+  }
+}
 
 /*========================================== HIDE PROJECT MENU ON SCROLL ==========================================*/
 var projectMenu = document.getElementById('projectPresentationNavbar');
