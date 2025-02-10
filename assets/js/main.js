@@ -33,7 +33,22 @@ themeButton.addEventListener('click', () => {
   }
 });
 
-/*========================================== HIDE MENU ON SCROLL ==========================================*/
+/*========================================== TOGGLE NAVBAR MENU ==========================================*/
+var navbarElements = document.getElementById('navbarElements');
+var navbarButton = document.getElementById('navbarButton');
+
+if (window.innerWidth > 768) {
+  navbarButton.style.display = 'none';
+} else {
+  navbarButton.style.display = 'block';
+}
+
+navbarButton.addEventListener('click', (event) => {
+  event.preventDefault();
+    navbarElements.classList.toggle('show-navbar-elements');
+});
+
+/*========================================== HIDE PROJECT MENU ON SCROLL ==========================================*/
 var projectMenu = document.getElementById('projectPresentationNavbar');
 
 document.onscroll = function() {
@@ -44,10 +59,9 @@ document.onscroll = function() {
   }
 }
 
-/*========================================== TOGGLE MENU ==========================================*/
+/*========================================== TOGGLE PROJECT MENU ==========================================*/
 var projectPresentationNavbarButton = document.getElementById('projectPresentationNavbarButton');
 
-console.log(window.innerWidth > 768);
 if (window.innerWidth > 768) {
   projectPresentationNavbarButton.style.display = 'none';
 } else {

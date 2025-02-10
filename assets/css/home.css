@@ -20,7 +20,7 @@
   line-height: 250%;
 }
 .home-column-two {
-  width: 50%;
+  width: 40%;
   padding-top: 1.5rem;
 }
 .home-column-two img {
@@ -73,15 +73,11 @@
   }
 }
 
-@media screen and (max-width: 992px) {
-  .separator-line-vertical {
-    width: 1px;
-    height: 56px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .home {
     margin-top: 113px;
+  }
+  .separator-line-vertical {
+    display: none;
   }
 }

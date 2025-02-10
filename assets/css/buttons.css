@@ -104,6 +104,14 @@
   font-weight: 500;
   font-size: 1rem !important;
 }
+.navbar-button {
+  padding: 4px 6px;
+  z-index: 50;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: var(--transparent-highlight);
+  text-align: center;
+}
 
 @media screen and (max-width: 768px) {
   .cv-button-big {
@@ -115,7 +123,11 @@
     display: inline;
   }
   .link-button {
-    padding: 12px 8px;
-    font-size: 14px;
+    border: none;
+  }
+  #navbarButtonIcon {
+    z-index: 100;
+    width: 40px;
+    height: 40px;
   }
 }
