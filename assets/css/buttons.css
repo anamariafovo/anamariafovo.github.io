@@ -104,14 +104,6 @@
   font-weight: 500;
   font-size: 1rem !important;
 }
-.navbar-button {
-  padding: 4px 6px;
-  z-index: 50;
-  cursor: pointer;
-  border-radius: 8px;
-  background-color: var(--transparent-highlight);
-  text-align: center;
-}
 
 @media screen and (max-width: 768px) {
   .cv-button-big {
@@ -125,9 +117,16 @@
   .link-button {
     border: none;
   }
-  #navbarButtonIcon {
-    z-index: 100;
-    width: 40px;
-    height: 40px;
+  .navbar-button {
+    padding: 10px 8px;
+    z-index: 50;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: var(--transparent-highlight);
+    text-align: center;
+  }
+  .navbar-button img {
+    display: block;
+    margin: auto;
   }
 }
