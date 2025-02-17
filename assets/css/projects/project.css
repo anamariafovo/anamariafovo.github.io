@@ -53,15 +53,15 @@
 }
 .project-details a {
   width: 60%;
-  height: auto;
   align-self: center;
   border-radius: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   transition: 1s;
 }
 .project-details img {
-  height: 100%;
   width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
 }
 .project-details-grid {
   width: 100%;
@@ -218,6 +218,9 @@
   .images-desktop img {
     height: auto;
     width: auto;
+  }
+  .project-details a {
+    width: 100%;
   }
 }
 
