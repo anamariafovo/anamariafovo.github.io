@@ -41,7 +41,7 @@
 
 @media screen and (max-width: 768px) {
   .navbar-fixed {
-    padding: 1rem 1rem;
+    padding: 0 1rem;
   }
   .navbar-elements {
     background: var(--body-color);

@@ -229,6 +229,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .project-header {
+    margin-top: 81px;
+  }
   .project-images-mobile,
   .project-images-tablet {
     grid-template-columns: repeat(2, 1fr);

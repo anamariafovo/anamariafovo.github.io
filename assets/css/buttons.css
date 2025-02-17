@@ -118,6 +118,7 @@
     border: none;
   }
   .navbar-button {
+    transform: scale(0.7);
     padding: 10px 8px;
     z-index: 50;
     cursor: pointer;
