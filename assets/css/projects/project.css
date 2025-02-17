@@ -51,12 +51,17 @@
   border-radius: 1rem;
   border: 1px solid var(--text-color);
 }
-.project-details img {
+.project-details a {
   width: 60%;
+  height: auto;
   align-self: center;
   border-radius: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   transition: 1s;
+}
+.project-details img {
+  height: 100%;
+  width: 100%;
 }
 .project-details-grid {
   width: 100%;
@@ -213,9 +218,6 @@
   .images-desktop img {
     height: auto;
     width: auto;
-  }
-  .project-details img {
-    width: 100%;
   }
 }
 
