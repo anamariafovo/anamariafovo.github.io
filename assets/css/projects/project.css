@@ -51,19 +51,12 @@
   border-radius: 1rem;
   border: 1px solid var(--text-color);
 }
-.project-details a {
+.project-details img {
   width: 60%;
   align-self: center;
   border-radius: 0.5rem;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   transition: 1s;
-}
-.project-details a:hover {
-  transform: scale(1.02);
-}
-.project-details img {
-  height: 100%;
-  border-radius: 0.5rem;
 }
 .project-details-grid {
   width: 100%;
@@ -220,7 +213,7 @@
     height: auto;
     width: auto;
   }
-  .project-details a {
+  .project-details img {
     width: 100%;
   }
 }
