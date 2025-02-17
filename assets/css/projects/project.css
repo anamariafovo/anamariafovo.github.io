@@ -106,7 +106,7 @@
 .project-images-desktop {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 3rem;
   padding: 3rem;
   place-items: center;
@@ -129,6 +129,7 @@
   place-items: center;
   padding: 0 5rem;
 }
+.project-images-desktop img,
 .project-images-mobile img,
 .project-images-tablet img {
   width: 100%;
@@ -223,6 +224,7 @@
   .project-images-tablet {
     grid-template-columns: repeat(2, 1fr);
   }
+  .project-images-desktop,
   .project-details-grid {
     grid-template-columns: repeat(1, 1fr);
   }
