@@ -1,8 +1,8 @@
-.portofolio {
+.portfolio {
   padding: 5rem 16rem 12rem 16rem;
   background: var(--body-color);
 }
-.portofolio-container {
+.portfolio-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -168,13 +168,13 @@
 }
 
 @media screen and (max-width: 1680px) {
-  .portofolio {
+  .portfolio {
     padding: 3rem 8rem;
   }
 }
 
 @media screen and (max-width: 1200px) {
-  .portofolio-container {
+  .portfolio-container {
     padding: 0;
   }
   .project-card-big {
@@ -199,7 +199,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .portofolio-container {
+  .portfolio-container {
     row-gap: 1rem;
   }
   .development-projects {
