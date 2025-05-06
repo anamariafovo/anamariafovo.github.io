@@ -37,11 +37,11 @@
   color: #231f20;
 }
 .button-thin {
-  padding: 8px 16px;
+  padding: 12px 16px;
   justify-content: center;
   align-items: center;
   border: 1px solid var(--body-color);
-  border-radius: 16px;
+  border-radius: 24px;
   transition: 0.75s;
   font-family: var(--body-font);
   font-size: 16px;
