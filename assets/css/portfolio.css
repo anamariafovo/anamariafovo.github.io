@@ -130,11 +130,11 @@
 .project-card-small-text {
     display: flex;
     width: 240px;
-    height: 138px;
+    height: 140px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 1rem;
+    row-gap: 0.2rem;
     padding: 0.5rem 1rem;
     border-radius: 0 0 2rem 2rem;
     border-right: 3px solid var(--text-color);
@@ -151,6 +151,8 @@
 .project-card-small-text p {
     font-weight: 400;
     font-size: 0.8rem;
+    line-height: 16px;
+    text-align: center;
 }
 .project-card-small:hover {
     .project-card-small-image {
