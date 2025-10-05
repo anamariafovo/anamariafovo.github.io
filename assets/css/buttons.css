@@ -1,5 +1,5 @@
 .link-button {
-  padding: 16px 32px;
+  padding: 12px 24px;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
@@ -103,6 +103,13 @@
   padding: 10px;
   font-weight: 500;
   font-size: 1rem !important;
+}
+
+@media screen and (max-width: 1400px) {
+  .link-button {
+    font-size: 14px;
+    padding: 12px 12px;
+  }
 }
 
 @media screen and (max-width: 768px) {
