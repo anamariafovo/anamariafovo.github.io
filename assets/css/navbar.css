@@ -37,8 +37,11 @@
   .navbar-fixed {
     padding: 1rem 1.5rem;
   }
-  .navbar-fixed img {
+  .navbar-fixed a img {
     transform: scale(0.7);
+  }
+  #navbarButtonIcon {
+    transform: scale(1);
   }
   .navbar-links button {
     font-weight: 500;
