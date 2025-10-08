@@ -22,7 +22,24 @@
 #dark-theme-button {
   display: none;
 }
-.project-button {
+.project-button-small {
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--text-color);
+  border-bottom: 1px solid var(--body-color);
+  color: var(--body-color);
+  transition: 0.5s;
+  text-align: center;
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.project-button-small:hover {
+  background-color: var(--button-hover-color);
+  color: var(--button-hover-text-color);
+}
+.project-button-big {
   padding: 1.5rem 1rem;
   background-color: var(--text-color);
   border: 1px solid var(--body-color);
@@ -31,10 +48,10 @@
   transition: 0.5s;
   text-align: center;
 }
-.project-button:hover {
+.project-button-big:hover {
   border: 1px solid var(--text-color);
   background-color: var(--button-hover-color);
-  color: #231f20;
+  color: var(--button-hover-text-color);
 }
 .button-thin {
   padding: 12px 16px;

@@ -38,6 +38,7 @@
   --card-color: var(--pearl-glass);
   --button-hover-color: var(--butter-glow);
   --button-border-color: var(--graphite-mist);
+  --button-hover-text-color: var(--text-color);
   --cv-button-color: var(--mint-quarz);
   --divider-color: var(--cloudline);
   --body-font: "Montserrat", sans-serif;
@@ -118,6 +119,7 @@ body.dark-theme {
   --home-color: var(--arctic-haze);
   --button-hover-color: var(--amber-veil);
   --button-border-color: var(--moonstone);
+  --button-hover-text-color: var(--obsidian-mist);
   --cv-button-color: var(--seafoam-glow);
   --divider-color: var(--smoke-line);
 }
