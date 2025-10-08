@@ -25,7 +25,13 @@
 }
 .home-column-two img {
   transform: scale(1.5);
+  transition: transform 0.4s ease;
+  transform-box: fill-box;
+  transform-origin: center;
   margin-top: 2rem;
+}
+.home-column-two img:hover {
+  transform: rotate(260deg);
 }
 .home-column-one,
 .home-column-two {
