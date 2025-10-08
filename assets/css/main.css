@@ -8,20 +8,38 @@
 
 /*** GENERAL VARIABLES ***/
 :root {
-  /* Main color palette */
-  --celadon: #b0f2b4;
-  --celeste: #baf2e9;
-  --columbia-blue: #bad7f2;
-  --orchid-pink: #f2bac9;
-  --dutch-white: #f2e2ba;
+  /* Ligh Theme Color Palette */
+  --mist-white: #f8f9fa; /* Background */
+  --pearl-glass: #f3f1f7; /* Cards & Sections */
+  --mint-quarz: #b9e3c6; /* Primary Accent (CTAs & hover states) */
+  --lavender-opal: #cfc5e8; /* Secondary Accent (headers & highlights) */
+  --ice-mist: #c4e3ec; /* Supporting Accent (banners & hero) */
+  --butter-glow: #f7e7b2; /* Highlights (small ighlights & buttons) */
+  --graphite-mist: #3c3f46; /* Primary Text */
+  --slate-gray: #5c6068; /* Secondary Text */
+  --cloudline: #e1e3e8; /* Borders & Dviders */
+
+  /* Dark Theme Color Palette */
+  --obsidian-mist: #1e1f25; /* Background */
+  --graphite-glass: #2a2b33; /* Cards & Sections */
+  --seafoam-glow: #a9d9c6; /* Primary Accent (CTAs & hover states) */
+  --lilac-smoke: #bcaee3; /* Secondary Accent (headers & highlights) */
+  --arctic-haze: #9dcfe1; /* Supporting Accent (banners & hero) */
+  --amber-veil: #eadfa3; /* Highlights (focus area & button hover states) */
+  --moonstone: #e9e9ed; /* Primary Text */
+  --mist-gray: #b5b6ba; /* Secondary Text */
+  --smoke-line: #34363f; /* Borders & Dividers */
 
   /* Theme & Typography */
-  --body-color: #f7f7f7;
-  --text-color: #231f20;
-  --transparent-highlight: #231f2010;
-  --button-border-color: #231f20;
-  --home-color: var(--dutch-white);
-  --hover-color: var(--celeste);
+  --body-color: var(--mist-white);
+  --text-color: var(--graphite-mist);
+  --home-color: var(--ice-mist);
+  --secondary-text-color: var(--slate-gray);
+  --card-color: var(--pearl-glass);
+  --button-hover-color: var(--butter-glow);
+  --button-border-color: var(--graphite-mist);
+  --cv-button-color: var(--mint-quarz);
+  --divider-color: var(--cloudline);
   --body-font: "Montserrat", sans-serif;
 }
 
@@ -93,12 +111,15 @@ iframe {
 
 /*** DARK THEME ***/
 body.dark-theme {
-  --body-color: #231f20;
-  --text-color: #f7f7f7;
-  --button-border-color: #f7f7f7;
-  --transparent-highlight: #ffffff33;
-  --home-color: var(--columbia-blue);
-  --hover-color: var(--orchid-pink);
+  --body-color: var(--obsidian-mist);
+  --text-color: var(--moonstone);
+  --secondary-text-color: var(--mist-gray);
+  --card-color: var(--graphite-glass);
+  --home-color: var(--arctic-haze);
+  --button-hover-color: var(--amber-veil);
+  --button-border-color: var(--moonstone);
+  --cv-button-color: var(--seafoam-glow);
+  --divider-color: var(--smoke-line);
 }
 
 @media screen and (max-width: 1680px) {

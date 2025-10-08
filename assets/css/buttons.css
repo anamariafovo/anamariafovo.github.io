@@ -13,7 +13,7 @@
   cursor: pointer;
 }
 .link-button:hover {
-  background-color: var(--hover-color);
+  background-color: var(--button-hover-color);
   color: #231f20;
 }
 .theme-button {
@@ -33,7 +33,7 @@
 }
 .project-button:hover {
   border: 1px solid var(--text-color);
-  background-color: var(--orchid-pink);
+  background-color: var(--button-hover-color);
   color: #231f20;
 }
 .button-thin {
@@ -65,7 +65,7 @@
   font-family: var(--body-font);
   font-size: 16px;
   font-weight: 700;
-  background-color: var(--celadon);
+  background-color: var(--cv-button-color);
   color: #231f20;
   z-index: 100;
   border: 2px solid #231f20;
@@ -78,7 +78,7 @@
   bottom: 1rem;
   right: 1rem;
   border-radius: 8px;
-  background-color: var(--celadon);
+  background-color: var(--cv-button-color);
   color: #231f20;
   z-index: 100;
   border: 1px solid #231f20;
@@ -97,7 +97,6 @@
   text-align: center;
   width: 100%;
   border-radius: 8px;
-  background-color: var(--transparent-highlight);
   z-index: 100;
   cursor: pointer;
   padding: 10px;
@@ -130,7 +129,6 @@
     z-index: 50;
     cursor: pointer;
     border-radius: 8px;
-    background-color: var(--transparent-highlight);
     text-align: center;
   }
   .navbar-button img {

@@ -4,17 +4,14 @@
   align-items: center;
   width: 100%;
   padding: 2rem;
-  background: #231f20;
-  color: #f7f7f7;
+  background: var(--card-color);
+  color: var(--secondary-text-color);
 }
 .footer-text {
   font-weight: 300;
 }
 .footer a {
-  color: #f7f7f7;
-}
-.footer a:hover {
-  color: var(--celeste);
+  color: var(--text-color);
 }
 
 @media screen and (max-width: 992px) {
