@@ -156,13 +156,9 @@
   line-height: 16px;
   text-align: center;
 }
-.project-card-small:hover {
-  .project-card-small-text {
-    color: var(--text-color);
-  }
-  .project-card-small-image img {
-    transform: scale(1.1);
-  }
+.project-card-small-text:hover {
+  background-color: var(--card-hover-color);
+  color: var(--text-color);
 }
 
 @media screen and (max-width: 1680px) {

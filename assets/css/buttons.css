@@ -14,7 +14,7 @@
 }
 .link-button:hover {
   background-color: var(--button-hover-color);
-  color: #231f20;
+  color: var(--button-hover-text-color);
 }
 .theme-button {
   cursor: pointer;
@@ -25,10 +25,11 @@
 .project-button-small {
   width: 100%;
   padding: 1rem;
-  background-color: var(--text-color);
-  border-bottom: 1px solid var(--body-color);
-  color: var(--body-color);
+  background-color: var(--card-color);
+  color: var(--secondary-text-color);
+  border-bottom: 1px solid var(--secondary-text-color);
   transition: 0.5s;
+  font-weight: 700;
   text-align: center;
   z-index: 10;
   position: absolute;
@@ -36,8 +37,8 @@
   left: 0;
 }
 .project-button-small:hover {
-  background-color: var(--button-hover-color);
-  color: var(--button-hover-text-color);
+  background-color: var(--card-hover-color);
+  color: var(--text-color);
 }
 .project-button-big {
   padding: 1.5rem 1rem;
