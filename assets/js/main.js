@@ -99,29 +99,35 @@ date.innerHTML = new Date().getFullYear();
 /*========================================== SKILLS GLOBE ==========================================*/
 window.onload = function () {
   const canvas = document.getElementById("tagcanvas");
-  const size = Math.min(window.innerWidth * 0.8, 500);
-  const isMobile = "ontouchstart" in window || window.innerWidth <= 768;
 
-  canvas.width = size + 100;
-  canvas.height = isMobile ? size + 80 : size;
+  function resizeCanvas() {
+    const isMobile = "ontouchstart" in window || window.innerWidth <= 768;
+    let baseSize = Math.min(window.innerWidth * 0.8, 500);
 
-  TagCanvas.Start("tagcanvas", "skill-tags", {
-    textColour: "#3c3f46",
-    outlineThickness: 0,
-    outlineColour: "rgba(0,0,0,0)",
-    reverse: true,
-    depth: 0.8,
-    maxSpeed: 0.05,
-    initial: [0.1, -0.1],
-    wheelZoom: false,
-    dragControl: isMobile,
-    pinchZoom: isMobile,
-  });
+    // Width: +100 for desktop, cap to window width
+    let width = isMobile
+      ? baseSize + 60
+      : Math.min(baseSize + 100, window.innerWidth);
+    // Height: +80 for mobile
+    let height = isMobile ? baseSize + 80 : baseSize;
 
-  window.addEventListener("resize", () => {
-    const newSize = Math.min(window.innerWidth * 0.8, 500);
-    canvas.width = newSize + 100;
-    canvas.height = isMobile ? newSize + 80 : newSize;
-    TagCanvas.Reload("tagcanvas");
-  });
+    canvas.width = width;
+    canvas.height = height;
+
+    TagCanvas.Start("tagcanvas", "skill-tags", {
+      textColour: "#3c3f46",
+      outlineThickness: 0,
+      outlineColour: "rgba(0,0,0,0)",
+      reverse: true,
+      depth: 0.8,
+      maxSpeed: 0.05,
+      initial: [0.1, -0.1],
+      wheelZoom: false,
+      dragControl: isMobile,
+      pinchZoom: isMobile,
+    });
+  }
+
+  resizeCanvas();
+  window.addEventListener("resize", resizeCanvas);
 };
