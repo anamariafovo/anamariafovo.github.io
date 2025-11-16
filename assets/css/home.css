@@ -13,18 +13,16 @@
   padding: 1rem 2rem;
 }
 .home-column {
-  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 3rem;
+  width: 50%;
 }
 .home-column p {
   font-weight: 400;
   line-height: 250%;
-}
-.home-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  row-gap: 3rem;
 }
 .welcome-message {
   background-color: transparent;

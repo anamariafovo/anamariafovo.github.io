@@ -98,6 +98,13 @@ date.innerHTML = new Date().getFullYear();
 
 /*========================================== SKILLS GLOBE ==========================================*/
 window.onload = function () {
+  const canvas = document.getElementById("tagcanvas");
+  const size = Math.min(window.innerWidth * 0.8, 500);
+  canvas.width = size + 100;
+  canvas.height = size;
+
+  const isMobile = "ontouchstart" in window || window.innerWidth <= 768;
+
   TagCanvas.Start("tagcanvas", "skill-tags", {
     textColour: "#3c3f46",
     outlineThickness: 0,
@@ -105,6 +112,17 @@ window.onload = function () {
     reverse: true,
     depth: 0.8,
     maxSpeed: 0.05,
+    initial: [0.1, -0.1],
     wheelZoom: false,
+    dragControl: isMobile,
+    pinchZoom: isMobile,
+    imgMode: "width",
+  });
+
+  window.addEventListener("resize", () => {
+    const newSize = Math.min(window.innerWidth * 0.8, 500);
+    canvas.width = newSize + 100;
+    canvas.height = newSize;
+    TagCanvas.Reload("tagcanvas");
   });
 };
