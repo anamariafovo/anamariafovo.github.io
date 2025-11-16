@@ -105,7 +105,7 @@ window.onload = function () {
     let baseSize = Math.min(window.innerWidth * 0.8, 500);
 
     let width = isMobile
-      ? baseSize + 40
+      ? baseSize + 55
       : Math.min(baseSize + 100, window.innerWidth);
     let height = isMobile ? baseSize + 60 : baseSize;
 
