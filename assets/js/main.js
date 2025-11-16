@@ -100,10 +100,10 @@ date.innerHTML = new Date().getFullYear();
 window.onload = function () {
   const canvas = document.getElementById("tagcanvas");
   const size = Math.min(window.innerWidth * 0.8, 500);
+  const isMobile = "ontouchstart" in window || window.innerWidth <= 768;
+
   canvas.width = size + 100;
   canvas.height = size;
-
-  const isMobile = "ontouchstart" in window || window.innerWidth <= 768;
 
   TagCanvas.Start("tagcanvas", "skill-tags", {
     textColour: "#3c3f46",
@@ -116,7 +116,6 @@ window.onload = function () {
     wheelZoom: false,
     dragControl: isMobile,
     pinchZoom: isMobile,
-    imgMode: "width",
   });
 
   window.addEventListener("resize", () => {
