@@ -153,4 +153,8 @@
     display: block;
     margin: auto;
   }
+  .button-thin {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
 }

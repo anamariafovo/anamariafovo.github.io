@@ -7,6 +7,10 @@
       content="height=device-height, width=device-width, initial-scale=1.0, target-densitydpi=device-dpi" />
     <title>FOVO</title>
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
   </head>
   <body>
     <!--========================================== NAVBAR ==========================================-->
@@ -58,8 +62,8 @@
     <!--========================================== HOME ==========================================-->
     <section class="section home" id="home">
       <div class="container home-container">
-        <div class="home-column-one">
-          <h1 class="welcome-message">Hi, i'm Ana</h1>
+        <div class="home-column">
+          <h1 class="welcome-message">Hi, I'm Ana</h1>
           <p>
             Frontend developer with a
             <b>strong eye for details</b> and a passion for building
@@ -77,25 +81,130 @@
             Take a look at my projects below
           </a>
         </div>
-        <div class="home-column-two">
-          <img src="assets/img/polygon.svg" alt="computer image" />
+        <div class="home-column">
+          <canvas width="500" height="500" id="tagcanvas">
+            <ul id="skill-tags">
+              <canvas width="600" height="600" id="tagcanvas">
+                <ul id="skill-tags">
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original-wordmark.svg"
+                        width="60"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nuxtjs/nuxtjs-original-wordmark.svg"
+                        width="80"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                        width="50"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+                        width="90"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                        width="50"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/p5js/p5js-original.svg"
+                        width="50"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+                        width="70"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg"
+                        width="60"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg"
+                        width="60"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/storybook/storybook-original-wordmark.svg"
+                        width="80"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitest/vitest-original.svg"
+                        width="50"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original-wordmark.svg"
+                        width="80"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
+                        width="60"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
+                        width="70"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+                        width="50"
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/browserstack/browserstack-original-wordmark.svg"
+                        width="70"
+                    /></a>
+                  </li>
+                </ul>
+              </canvas>
+            </ul>
+          </canvas>
         </div>
       </div>
     </section>
-    <a
-      class="cv-button-big"
-      download=""
-      href="./assets/pdf/CV_Ana-Maria_Fotache-Vornicu.pdf"
-      aria-label="CV download button">
-      Download My CV
-    </a>
-    <a
-      class="cv-button-small"
-      download=""
-      href="./assets/pdf/CV_Ana-Maria_Fotache-Vornicu.pdf"
-      aria-label="CV download button">
-      My CV
-    </a>
 
     <!--========================================== PORTFOLIO ==========================================-->
     <section class="section portfolio" id="portfolio">
@@ -371,4 +480,5 @@
   </body>
 
   <script src="assets/js/main.js"></script>
+  <script src="https://www.goat1000.com/tagcanvas.min.js"></script>
 </html>

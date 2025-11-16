@@ -95,3 +95,16 @@ if (projectPresentationNavbarButton) {
 /*========================================== SET DATE DYNAMICALLY ==========================================*/
 const date = document.getElementById("date");
 date.innerHTML = new Date().getFullYear();
+
+/*========================================== SKILLS GLOBE ==========================================*/
+window.onload = function () {
+  TagCanvas.Start("tagcanvas", "skill-tags", {
+    textColour: "#3c3f46",
+    outlineThickness: 0,
+    outlineColour: "rgba(0,0,0,0)",
+    reverse: true,
+    depth: 0.8,
+    maxSpeed: 0.05,
+    wheelZoom: false,
+  });
+};
