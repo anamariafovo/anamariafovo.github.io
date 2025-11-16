@@ -103,7 +103,7 @@ window.onload = function () {
   const isMobile = "ontouchstart" in window || window.innerWidth <= 768;
 
   canvas.width = size + 100;
-  canvas.height = size;
+  canvas.height = isMobile ? size + 80 : size;
 
   TagCanvas.Start("tagcanvas", "skill-tags", {
     textColour: "#3c3f46",
@@ -121,7 +121,7 @@ window.onload = function () {
   window.addEventListener("resize", () => {
     const newSize = Math.min(window.innerWidth * 0.8, 500);
     canvas.width = newSize + 100;
-    canvas.height = newSize;
+    canvas.height = isMobile ? newSize + 80 : newSize;
     TagCanvas.Reload("tagcanvas");
   });
 };
