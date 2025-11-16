@@ -104,12 +104,10 @@ window.onload = function () {
     const isMobile = "ontouchstart" in window || window.innerWidth <= 768;
     let baseSize = Math.min(window.innerWidth * 0.8, 500);
 
-    // Width: +100 for desktop, cap to window width
     let width = isMobile
-      ? baseSize + 60
+      ? baseSize + 40
       : Math.min(baseSize + 100, window.innerWidth);
-    // Height: +80 for mobile
-    let height = isMobile ? baseSize + 80 : baseSize;
+    let height = isMobile ? baseSize + 60 : baseSize;
 
     canvas.width = width;
     canvas.height = height;
