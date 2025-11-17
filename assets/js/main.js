@@ -123,6 +123,7 @@ window.onload = function () {
       wheelZoom: false,
       dragControl: isMobile,
       pinchZoom: isMobile,
+      noSelect: true,
     });
   }
 
