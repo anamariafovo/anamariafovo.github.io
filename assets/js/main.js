@@ -96,6 +96,15 @@ if (projectPresentationNavbarButton) {
 const date = document.getElementById("date");
 date.innerHTML = new Date().getFullYear();
 
+/*========================================== DESKTOP BUTTON ==========================================*/
+const desktopButton = document.getElementById("desktopButton");
+const isDesktop = window.innerWidth > 968;
+if (isDesktop) {
+  desktopButton.style.display = "block";
+} else {
+  desktopButton.style.display = "none";
+}
+
 /*========================================== SKILLS GLOBE ==========================================*/
 window.onload = function () {
   const canvas = document.getElementById("tagcanvas");

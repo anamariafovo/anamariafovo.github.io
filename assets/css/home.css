@@ -25,6 +25,7 @@
 }
 .welcome-message {
   background-color: transparent;
+  font-weight: 800;
 }
 .dark-theme #tagcanvas {
   filter: brightness(1.3) contrast(1);
