@@ -42,16 +42,6 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", newTheme);
 });
 
-/*========================================== THEME TRANSITION ==========================================*/
-
-function enableThemeTransition() {
-  document.body.classList.add("theme-transition");
-
-  setTimeout(() => {
-    document.body.classList.remove("theme-transition");
-  }, 300); // match the CSS duration
-}
-
 /*========================================== TOGGLE NAVBAR MENU ==========================================*/
 var navbarElements = document.getElementById("navbarElements");
 var navbarButton = document.getElementById("navbarButton");
