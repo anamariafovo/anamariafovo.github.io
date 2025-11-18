@@ -48,6 +48,7 @@
   color: var(--body-color);
   transition: 0.5s;
   text-align: center;
+  font-weight: 700;
 }
 .project-button-big:hover {
   border: 1px solid var(--text-color);
@@ -71,7 +72,7 @@
 .button-thin:hover {
   border: 1px solid var(--button-hover-text-color);
   color: var(--button-hover-text-color);
-  background-color: transparent;
+  background-color: #e1e3e862;
 }
 .cv-button-big {
   position: fixed;
@@ -99,7 +100,7 @@
   background-color: var(--cv-button-color);
   color: var(--button-hover-text-color);
   z-index: 100;
-  border: 1px solid #231f20;
+  border: 1px solid var(--obsidian-mist);
   cursor: pointer;
   transition: 1s;
   padding: 10px;
