@@ -53,11 +53,16 @@
 @media screen and (max-width: 1400px) {
   .home-container {
     padding: 0;
-    flex-direction: column;
     row-gap: 3rem;
   }
   .home-column {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .home-container {
+    flex-direction: column;
   }
 }
 
