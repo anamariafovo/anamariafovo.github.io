@@ -34,12 +34,12 @@
 .separator-line-horizontal {
   width: 80%;
   height: 1px;
-  background: var(--secondary-text-color);
+  background-color: var(--secondary-text-color);
 }
 .separator-line-vertical {
   width: 1.5px;
   height: 72px;
-  background: var(--secondary-text-color);
+  background-color: var(--secondary-text-color);
 }
 
 @media screen and (max-width: 1680px) {

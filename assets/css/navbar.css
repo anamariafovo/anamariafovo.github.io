@@ -75,16 +75,12 @@ body.dark-theme .navbar-fixed {
     padding: 0 1rem;
   }
   .navbar-elements {
-    background: rgba(255, 255, 255, 0.18);
-    backdrop-filter: blur(14px);
-    -webkit-backdrop-filter: blur(14px);
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+    background: var(--body-color);
     color: var(--text-color);
     position: fixed;
     padding: 1rem;
     z-index: 50;
-    top: -50%;
+    top: -300%;
     right: 0;
     width: 100%;
     column-gap: 0;

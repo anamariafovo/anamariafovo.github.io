@@ -26,7 +26,7 @@
 .project-button-small {
   width: 100%;
   padding: 1rem;
-  background-color: var(--card-color);
+  background: var(--card-color);
   color: var(--secondary-text-color);
   border-bottom: 1px solid var(--secondary-text-color);
   transition: 0.5s;
@@ -42,7 +42,7 @@
 }
 .project-button-big {
   padding: 1.5rem 1rem;
-  background-color: var(--text-color);
+  background: var(--text-color);
   border: 1px solid var(--body-color);
   border-radius: 0.2rem;
   color: var(--body-color);
@@ -52,7 +52,7 @@
 }
 .project-button-big:hover {
   border: 1px solid var(--text-color);
-  background-color: var(--button-hover-color);
+  background: var(--button-hover-color);
   color: var(--button-hover-text-color);
 }
 .button-thin {
@@ -82,7 +82,7 @@
   font-family: var(--body-font);
   font-size: 16px;
   font-weight: 700;
-  background-color: var(--cv-button-color);
+  background: var(--cv-button-color);
   color: var(--button-hover-text-color);
   z-index: 100;
   border: 2px solid var(--button-hover-text-color);
@@ -95,7 +95,7 @@
   bottom: 1rem;
   right: 1rem;
   border-radius: 8px;
-  background-color: var(--cv-button-color);
+  background: var(--cv-button-color);
   color: var(--button-hover-text-color);
   z-index: 100;
   border: 1px solid var(--obsidian-mist);
@@ -139,6 +139,7 @@
   }
   .link-button {
     border: none;
+    background: none;
   }
   .navbar-button {
     transform: scale(0.7);

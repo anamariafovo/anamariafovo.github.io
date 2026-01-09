@@ -16,7 +16,7 @@
   align-items: center;
   justify-content: space-between;
   row-gap: 0.5rem;
-  background: var(--body-color);
+  background-color: var(--body-color);
   color: var(--text-color);
   border-radius: 12px;
 }

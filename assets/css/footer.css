@@ -4,7 +4,7 @@
   align-items: center;
   width: 100%;
   padding: 2rem;
-  background: var(--card-color);
+  background-color: var(--card-color);
   color: var(--secondary-text-color);
 }
 .footer-text {
