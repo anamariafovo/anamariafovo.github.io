@@ -1,5 +1,5 @@
 .portfolio {
-  padding: 5rem 16rem 12rem 16rem;
+  padding: 8rem 16rem 12rem 16rem;
   background: var(--body-color);
 }
 .portfolio-container {
@@ -55,6 +55,7 @@
   justify-content: flex-start;
   width: 100%;
   height: 450px;
+  transition: transform 0.6s ease;
 }
 .project-card-big-image {
   width: 70%;
@@ -85,7 +86,8 @@
   row-gap: 2rem;
   justify-content: center;
   align-items: flex-start;
-  border: 1px solid var(--secondary-text-color);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 .project-card-big-text h2 {
   font-size: 2rem;
@@ -121,13 +123,16 @@
   background-repeat: no-repeat;
   position: relative;
   overflow: hidden;
-  transition: 1s;
+  transition: transform 0.6s ease;;
 }
 .project-card-small-image img {
   object-fit: cover;
   width: 240px;
   height: 214px;
-  transition: 1s;
+  transition: transform 0.6s ease;;
+}
+.project-card-small:hover img {
+  transform: scale(1.05);
 }
 .project-card-small-text {
   display: flex;
@@ -146,7 +151,8 @@
   border-top: 2px solid var(--secondary-text-color);
   background-color: var(--card-color);
   color: var(--secondary-text-color);
-  transition: 1s;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: transform 0.6s ease;
 }
 .project-card-small-text h4 {
   font-weight: 700;
@@ -158,8 +164,12 @@
   text-align: center;
 }
 .project-card-small-text:hover {
-  background-color: var(--card-hover-color);
   color: var(--text-color);
+  transform: translateY(-6px);
+}
+.project-card-small:hover .project-card-small-text,
+.project-card-big:hover .project-card-big-text{
+  box-shadow: 0 20px 50px rgba(0,0,0,0.12);
 }
 
 @media screen and (max-width: 1680px) {

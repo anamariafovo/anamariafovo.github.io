@@ -11,8 +11,8 @@
   /* Ligh Theme Color Palette */
   --mist-white: #f8f9fa; /* Background */
   --pearl-glass: #f3f1f7; /* Cards & Sections */
-  --mint-quarz: #b9e3c6; /* Primary Accent (CTAs & hover states) */
-  --lavender-opal: #cfc5e8; /* Secondary Accent (headers & highlights) */
+  --mint-quarz: #7fe0b5; /* Primary Accent (CTAs & hover states) */
+  --lavender-opal: #b7a8e3; /* Secondary Accent (headers & highlights) */
   --ice-mist: #c4e3ec; /* Supporting Accent (banners & hero) */
   --butter-glow: #f7e7b2; /* Highlights (small ighlights & buttons) */
   --graphite-mist: #3c3f46; /* Primary Text */
@@ -50,6 +50,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 html {
   scroll-behavior: smooth;
@@ -61,27 +62,22 @@ body {
   background-color: var(--body-color);
 }
 h1 {
-  font-size: 2.25rem;
-  font-weight: 400;
+  font-size: clamp(2.2rem, 4vw, 3rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
 h2 {
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 h3 {
   font-size: 1.25rem;
-  font-weight: 300;
-}
-h4 {
-  font-size: 1rem;
-  font-weight: 300;
+  font-weight: 500;
 }
 p {
   font-size: 1rem;
-  font-weight: 300;
-  line-height: 175%; /* 28px */
-  letter-spacing: 0.64px;
-  text-align: justify;
+  font-weight: 400;
+  line-height: 1.8;
 }
 ul {
   list-style: none;
