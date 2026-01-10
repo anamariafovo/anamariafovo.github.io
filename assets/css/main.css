@@ -40,7 +40,7 @@
   --button-hover-color: var(--mint-quarz);
   --button-border-color: var(--graphite-mist);
   --button-hover-text-color: var(--text-color);
-  --cv-button-color: var(--mint-quarz);
+  --accent-button-color: var(--mint-quarz);
   --divider-color: var(--cloudline);
   --body-font: "Montserrat", sans-serif;
 }
@@ -118,7 +118,7 @@ body.dark-theme {
   --button-hover-color: var(--seafoam-glow);
   --button-border-color: var(--moonstone);
   --button-hover-text-color: var(--obsidian-mist);
-  --cv-button-color: var(--seafoam-glow);
+  --accent-button-color: var(--seafoam-glow);
   --divider-color: var(--smoke-line);
 }
 
