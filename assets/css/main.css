@@ -36,7 +36,9 @@
   --home-color: var(--ice-mist);
   --secondary-text-color: var(--slate-gray);
   --card-color: var(--mist-white);
+  --card-shadow-color: rgba(0, 0, 0, 0.05);
   --card-hover-color: var(--pearl-glass);
+  --card-hover-shadow-color: rgba(0, 0, 0, 0.12);
   --button-hover-color: var(--mint-quarz);
   --button-border-color: var(--graphite-mist);
   --button-hover-text-color: var(--text-color);
@@ -115,7 +117,9 @@ body.dark-theme {
   --text-color: var(--moonstone);
   --secondary-text-color: var(--mist-gray);
   --card-color: var(--obsidian-mist);
+  --card-shadow-color: rgba(0, 0, 0, 0.05);
   --card-hover-color: var(--graphite-glass);
+  --card-hover-shadow-color: rgba(255, 255, 255, 0.12);
   --home-color: var(--graphite-glass);
   --button-hover-color: var(--seafoam-glow);
   --button-border-color: var(--moonstone);

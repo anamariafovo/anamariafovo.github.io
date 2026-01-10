@@ -61,7 +61,7 @@
 .project-details img {
   width: 100%;
   border-radius: 0.5rem;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  box-shadow: 2px 2px 3px var(--card-shadow-color);
 }
 .project-details-grid {
   width: 100%;
