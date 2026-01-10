@@ -40,7 +40,9 @@
   --button-hover-color: var(--mint-quarz);
   --button-border-color: var(--graphite-mist);
   --button-hover-text-color: var(--text-color);
+  --button-hover-shadow-color: rgba(0, 0, 0, 0.08);
   --accent-button-color: var(--mint-quarz);
+  --link-button-color: rgba(255, 255, 255, 0.2);
   --divider-color: var(--cloudline);
   --body-font: "Montserrat", sans-serif;
 }
@@ -118,7 +120,9 @@ body.dark-theme {
   --button-hover-color: var(--seafoam-glow);
   --button-border-color: var(--moonstone);
   --button-hover-text-color: var(--obsidian-mist);
+  --button-hover-shadow-color: rgba(255, 255, 255, 0.08);
   --accent-button-color: var(--seafoam-glow);
+  --link-button-color: rgba(0, 0, 0, 0.03);
   --divider-color: var(--smoke-line);
 }
 
