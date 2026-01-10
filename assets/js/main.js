@@ -43,7 +43,7 @@ themeButton.addEventListener("click", () => {
 });
 
 /*========================================== TOGGLE NAVBAR MENU ==========================================*/
-var navbarElements = document.getElementById("navbarElements");
+var navbar = document.querySelector(".navbar-fixed");
 var navbarButton = document.getElementById("navbarButton");
 
 if (window.innerWidth > 768) {
@@ -54,17 +54,8 @@ if (window.innerWidth > 768) {
 
 navbarButton.addEventListener("click", (event) => {
   event.preventDefault();
-  navbarElements.classList.toggle("show-navbar-elements");
+  navbar.classList.toggle("expanded");
 });
-
-if (window.innerWidth <= 768) {
-  var navbarLinks = document.getElementById("navbarLinks").children;
-  for (i = 0; i < navbarLinks.length; ++i) {
-    navbarLinks[i].addEventListener("click", () => {
-      navbarElements.classList.remove("show-navbar-elements");
-    });
-  }
-}
 
 /*========================================== HIDE PROJECT MENU ON SCROLL ==========================================*/
 var projectMenu = document.getElementById("projectPresentationNavbar");

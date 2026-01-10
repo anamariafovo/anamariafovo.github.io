@@ -35,6 +35,8 @@
   --text-color: var(--graphite-mist);
   --home-color: var(--ice-mist);
   --secondary-text-color: var(--slate-gray);
+  --navbar-color: rgba(255, 255, 255, 0.55);
+  --navbar-border-color: rgba(255, 255, 255, 0.4);
   --card-color: var(--mist-white);
   --card-shadow-color: rgba(0, 0, 0, 0.05);
   --card-hover-color: var(--pearl-glass);
@@ -116,6 +118,8 @@ body.dark-theme {
   --body-color: var(--obsidian-mist);
   --text-color: var(--moonstone);
   --secondary-text-color: var(--mist-gray);
+  --navbar-color: rgba(30, 31, 37, 0.6);
+  --navbar-border-color: rgba(255, 255, 255, 0.08);
   --card-color: var(--obsidian-mist);
   --card-shadow-color: rgba(0, 0, 0, 0.05);
   --card-hover-color: var(--graphite-glass);

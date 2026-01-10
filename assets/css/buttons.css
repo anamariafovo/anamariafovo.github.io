@@ -1,4 +1,5 @@
 .link-button {
+  display: flex;
   padding: 12px 24px;
   justify-content: center;
   align-items: center;
@@ -140,10 +141,6 @@
   }
   .cv-button-small {
     display: inline;
-  }
-  .link-button {
-    border: none;
-    background: none;
   }
   .navbar-button {
     transform: scale(0.7);
