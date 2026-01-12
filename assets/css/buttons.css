@@ -48,7 +48,7 @@
 .project-button-big {
   padding: 1.5rem 1rem;
   background: var(--text-color);
-  border: 1px solid var(--body-color);
+  border: none;
   border-radius: 0.2rem;
   color: var(--body-color);
   transition: 0.5s;
@@ -56,7 +56,6 @@
   font-weight: 700;
 }
 .project-button-big:hover {
-  border: 1px solid var(--text-color);
   background: var(--button-hover-color);
   color: var(--button-hover-text-color);
 }
